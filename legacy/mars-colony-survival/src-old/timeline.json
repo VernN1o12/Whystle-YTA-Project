@@ -1,0 +1,1433 @@
+{
+ "slug": "mars-colony-survival",
+ "title": "MARS COLONY: Life Support Failed You Have two hours to live 🚀🔴 Oxygen Lost on Mars",
+ "format": "shorts",
+ "fps": 30,
+ "total": 1727,
+ "segments": [
+  {
+   "shot": "S1",
+   "a": 0,
+   "b": 55,
+   "t0": 0,
+   "t1": 55,
+   "line": "What if your Mars habitat just lost"
+  },
+  {
+   "shot": "S2",
+   "a": 55,
+   "b": 146,
+   "t0": 0,
+   "t1": 91,
+   "line": "oxygen? You only have two hours to survive."
+  },
+  {
+   "shot": "S3",
+   "a": 146,
+   "b": 180,
+   "t0": 0,
+   "t1": 34,
+   "line": "Ares Prime."
+  },
+  {
+   "shot": "S1",
+   "a": 180,
+   "b": 239,
+   "t0": 0,
+   "t1": 59,
+   "line": "Twelve people on board. CO2"
+  },
+  {
+   "shot": "S3",
+   "a": 239,
+   "b": 252,
+   "t0": 0,
+   "t1": 13,
+   "line": "scrubber"
+  },
+  {
+   "shot": "S1",
+   "a": 252,
+   "b": 272,
+   "t0": 0,
+   "t1": 20,
+   "line": "failed."
+  },
+  {
+   "shot": "S3",
+   "a": 272,
+   "b": 286,
+   "t0": 0,
+   "t1": 14,
+   "line": "Backup's"
+  },
+  {
+   "shot": "S1",
+   "a": 286,
+   "b": 307,
+   "t0": 0,
+   "t1": 21,
+   "line": "frozen."
+  },
+  {
+   "shot": "S3",
+   "a": 307,
+   "b": 323,
+   "t0": 0,
+   "t1": 16,
+   "line": "Help is"
+  },
+  {
+   "shot": "S1",
+   "a": 323,
+   "b": 331,
+   "t0": 0,
+   "t1": 8,
+   "line": "eight"
+  },
+  {
+   "shot": "S3",
+   "a": 331,
+   "b": 355,
+   "t0": 0,
+   "t1": 24,
+   "line": "months out."
+  },
+  {
+   "shot": "S1",
+   "a": 355,
+   "b": 369,
+   "t0": 0,
+   "t1": 14,
+   "line": "Commander"
+  },
+  {
+   "shot": "S3",
+   "a": 369,
+   "b": 380,
+   "t0": 0,
+   "t1": 11,
+   "line": "Voss"
+  },
+  {
+   "shot": "S1",
+   "a": 380,
+   "b": 392,
+   "t0": 0,
+   "t1": 12,
+   "line": "grabs"
+  },
+  {
+   "shot": "S4",
+   "a": 392,
+   "b": 403,
+   "t0": 0,
+   "t1": 11,
+   "line": "rover"
+  },
+  {
+   "shot": "S3",
+   "a": 403,
+   "b": 423,
+   "t0": 0,
+   "t1": 20,
+   "line": "keys."
+  },
+  {
+   "shot": "S4",
+   "a": 423,
+   "b": 432,
+   "t0": 0,
+   "t1": 9,
+   "line": "Eight"
+  },
+  {
+   "shot": "S3",
+   "a": 432,
+   "b": 446,
+   "t0": 0,
+   "t1": 14,
+   "line": "klicks"
+  },
+  {
+   "shot": "S4",
+   "a": 446,
+   "b": 459,
+   "t0": 0,
+   "t1": 13,
+   "line": "to Backup"
+  },
+  {
+   "shot": "S3",
+   "a": 459,
+   "b": 489,
+   "t0": 0,
+   "t1": 30,
+   "line": "Hab. Dr."
+  },
+  {
+   "shot": "S4",
+   "a": 489,
+   "b": 500,
+   "t0": 0,
+   "t1": 11,
+   "line": "Chen"
+  },
+  {
+   "shot": "S3",
+   "a": 500,
+   "b": 516,
+   "t0": 0,
+   "t1": 16,
+   "line": "seals"
+  },
+  {
+   "shot": "S4",
+   "a": 516,
+   "b": 545,
+   "t0": 0,
+   "t1": 29,
+   "line": "the greenhouse."
+  },
+  {
+   "shot": "S5",
+   "a": 545,
+   "b": 556,
+   "t0": 0,
+   "t1": 11,
+   "line": "Algae"
+  },
+  {
+   "shot": "S4",
+   "a": 556,
+   "b": 564,
+   "t0": 0,
+   "t1": 8,
+   "line": "makes"
+  },
+  {
+   "shot": "S5",
+   "a": 564,
+   "b": 589,
+   "t0": 0,
+   "t1": 25,
+   "line": "oxygen."
+  },
+  {
+   "shot": "S6",
+   "a": 589,
+   "b": 603,
+   "t0": 0,
+   "t1": 14,
+   "line": "Engineer"
+  },
+  {
+   "shot": "S4",
+   "a": 603,
+   "b": 614,
+   "t0": 0,
+   "t1": 11,
+   "line": "Kovic"
+  },
+  {
+   "shot": "S6",
+   "a": 614,
+   "b": 627,
+   "t0": 0,
+   "t1": 13,
+   "line": "checks"
+  },
+  {
+   "shot": "S7",
+   "a": 627,
+   "b": 637,
+   "t0": 0,
+   "t1": 10,
+   "line": "his leaking"
+  },
+  {
+   "shot": "S6",
+   "a": 637,
+   "b": 666,
+   "t0": 0,
+   "t1": 29,
+   "line": "suit. Surface"
+  },
+  {
+   "shot": "S7",
+   "a": 666,
+   "b": 679,
+   "t0": 0,
+   "t1": 13,
+   "line": "cache"
+  },
+  {
+   "shot": "S6",
+   "a": 679,
+   "b": 686,
+   "t0": 0,
+   "t1": 7,
+   "line": "is two"
+  },
+  {
+   "shot": "S7",
+   "a": 686,
+   "b": 710,
+   "t0": 0,
+   "t1": 24,
+   "line": "klicks out."
+  },
+  {
+   "shot": "S6",
+   "a": 710,
+   "b": 733,
+   "t0": 0,
+   "t1": 23,
+   "line": "Wait. The"
+  },
+  {
+   "shot": "S7",
+   "a": 733,
+   "b": 744,
+   "t0": 0,
+   "t1": 11,
+   "line": "comms"
+  },
+  {
+   "shot": "S6",
+   "a": 744,
+   "b": 758,
+   "t0": 0,
+   "t1": 14,
+   "line": "dish—"
+  },
+  {
+   "shot": "S7",
+   "a": 758,
+   "b": 770,
+   "t0": 0,
+   "t1": 12,
+   "line": "boost"
+  },
+  {
+   "shot": "S6",
+   "a": 770,
+   "b": 786,
+   "t0": 0,
+   "t1": 16,
+   "line": "the signal,"
+  },
+  {
+   "shot": "S7",
+   "a": 786,
+   "b": 794,
+   "t0": 0,
+   "t1": 8,
+   "line": "Earth"
+  },
+  {
+   "shot": "S6",
+   "a": 794,
+   "b": 802,
+   "t0": 0,
+   "t1": 8,
+   "line": "hears"
+  },
+  {
+   "shot": "S7",
+   "a": 802,
+   "b": 805,
+   "t0": 0,
+   "t1": 3,
+   "line": ""
+  },
+  {
+   "shot": "S6",
+   "a": 805,
+   "b": 824,
+   "t0": 0,
+   "t1": 19,
+   "line": "us today."
+  },
+  {
+   "shot": "S7",
+   "a": 824,
+   "b": 843,
+   "t0": 0,
+   "t1": 19,
+   "line": "Resupply"
+  },
+  {
+   "shot": "S6",
+   "a": 843,
+   "b": 861,
+   "t0": 0,
+   "t1": 18,
+   "line": "launches in"
+  },
+  {
+   "shot": "S7",
+   "a": 861,
+   "b": 871,
+   "t0": 0,
+   "t1": 10,
+   "line": "six"
+  },
+  {
+   "shot": "S6",
+   "a": 871,
+   "b": 901,
+   "t0": 0,
+   "t1": 30,
+   "line": "weeks. Here's"
+  },
+  {
+   "shot": "S7",
+   "a": 901,
+   "b": 918,
+   "t0": 0,
+   "t1": 17,
+   "line": "the catch."
+  },
+  {
+   "shot": "S8",
+   "a": 918,
+   "b": 935,
+   "t0": 0,
+   "t1": 17,
+   "line": "Power for"
+  },
+  {
+   "shot": "S7",
+   "a": 935,
+   "b": 953,
+   "t0": 0,
+   "t1": 18,
+   "line": "ONE."
+  },
+  {
+   "shot": "S8",
+   "a": 953,
+   "b": 963,
+   "t0": 0,
+   "t1": 10,
+   "line": "Rover"
+  },
+  {
+   "shot": "S7",
+   "a": 963,
+   "b": 983,
+   "t0": 0,
+   "t1": 20,
+   "line": "motors."
+  },
+  {
+   "shot": "S8",
+   "a": 983,
+   "b": 997,
+   "t0": 0,
+   "t1": 14,
+   "line": "Greenhouse"
+  },
+  {
+   "shot": "S7",
+   "a": 997,
+   "b": 1017,
+   "t0": 0,
+   "t1": 20,
+   "line": "seals."
+  },
+  {
+   "shot": "S8",
+   "a": 1017,
+   "b": 1026,
+   "t0": 0,
+   "t1": 9,
+   "line": "Suit"
+  },
+  {
+   "shot": "S7",
+   "a": 1026,
+   "b": 1045,
+   "t0": 0,
+   "t1": 19,
+   "line": "heaters."
+  },
+  {
+   "shot": "S8",
+   "a": 1045,
+   "b": 1057,
+   "t0": 0,
+   "t1": 12,
+   "line": "Comms"
+  },
+  {
+   "shot": "S7",
+   "a": 1057,
+   "b": 1075,
+   "t0": 0,
+   "t1": 18,
+   "line": "array."
+  },
+  {
+   "shot": "S8",
+   "a": 1075,
+   "b": 1082,
+   "t0": 0,
+   "t1": 7,
+   "line": "Pick"
+  },
+  {
+   "shot": "S7",
+   "a": 1082,
+   "b": 1094,
+   "t0": 0,
+   "t1": 12,
+   "line": "wrong,"
+  },
+  {
+   "shot": "S8",
+   "a": 1094,
+   "b": 1106,
+   "t0": 0,
+   "t1": 12,
+   "line": "everyone"
+  },
+  {
+   "shot": "S7",
+   "a": 1106,
+   "b": 1119,
+   "t0": 0,
+   "t1": 13,
+   "line": "dies in"
+  },
+  {
+   "shot": "S8",
+   "a": 1119,
+   "b": 1136,
+   "t0": 0,
+   "t1": 17,
+   "line": "the dark."
+  },
+  {
+   "shot": "S11",
+   "a": 1136,
+   "b": 1151,
+   "t0": 0,
+   "t1": 15,
+   "line": "A:"
+  },
+  {
+   "shot": "S8",
+   "a": 1151,
+   "b": 1162,
+   "t0": 0,
+   "t1": 11,
+   "line": "Rover"
+  },
+  {
+   "shot": "S11",
+   "a": 1162,
+   "b": 1177,
+   "t0": 0,
+   "t1": 15,
+   "line": "dash—"
+  },
+  {
+   "shot": "S8",
+   "a": 1177,
+   "b": 1184,
+   "t0": 0,
+   "t1": 7,
+   "line": "eight"
+  },
+  {
+   "shot": "S11",
+   "a": 1184,
+   "b": 1199,
+   "t0": 0,
+   "t1": 15,
+   "line": "klicks,"
+  },
+  {
+   "shot": "S8",
+   "a": 1199,
+   "b": 1206,
+   "t0": 0,
+   "t1": 7,
+   "line": "red"
+  },
+  {
+   "shot": "S11",
+   "a": 1206,
+   "b": 1219,
+   "t0": 0,
+   "t1": 13,
+   "line": "dust,"
+  },
+  {
+   "shot": "S8",
+   "a": 1219,
+   "b": 1227,
+   "t0": 0,
+   "t1": 8,
+   "line": "Earth"
+  },
+  {
+   "shot": "S11",
+   "a": 1227,
+   "b": 1247,
+   "t0": 0,
+   "t1": 20,
+   "line": "rising."
+  },
+  {
+   "shot": "S8",
+   "a": 1247,
+   "b": 1261,
+   "t0": 0,
+   "t1": 14,
+   "line": "B:"
+  },
+  {
+   "shot": "S11",
+   "a": 1261,
+   "b": 1276,
+   "t0": 0,
+   "t1": 15,
+   "line": "Greenhouse"
+  },
+  {
+   "shot": "S8",
+   "a": 1276,
+   "b": 1296,
+   "t0": 0,
+   "t1": 20,
+   "line": "gamble—"
+  },
+  {
+   "shot": "S11",
+   "a": 1296,
+   "b": 1305,
+   "t0": 0,
+   "t1": 9,
+   "line": "seal"
+  },
+  {
+   "shot": "S8",
+   "a": 1305,
+   "b": 1308,
+   "t0": 0,
+   "t1": 3,
+   "line": ""
+  },
+  {
+   "shot": "S11",
+   "a": 1308,
+   "b": 1325,
+   "t0": 0,
+   "t1": 17,
+   "line": "the dome,"
+  },
+  {
+   "shot": "S8",
+   "a": 1325,
+   "b": 1336,
+   "t0": 0,
+   "t1": 11,
+   "line": "watch"
+  },
+  {
+   "shot": "S11",
+   "a": 1336,
+   "b": 1347,
+   "t0": 0,
+   "t1": 11,
+   "line": "algae"
+  },
+  {
+   "shot": "S8",
+   "a": 1347,
+   "b": 1363,
+   "t0": 0,
+   "t1": 16,
+   "line": "glow."
+  },
+  {
+   "shot": "S11",
+   "a": 1363,
+   "b": 1376,
+   "t0": 0,
+   "t1": 13,
+   "line": "C:"
+  },
+  {
+   "shot": "S8",
+   "a": 1376,
+   "b": 1390,
+   "t0": 0,
+   "t1": 14,
+   "line": "Surface"
+  },
+  {
+   "shot": "S11",
+   "a": 1390,
+   "b": 1403,
+   "t0": 0,
+   "t1": 13,
+   "line": "walk—"
+  },
+  {
+   "shot": "S8",
+   "a": 1403,
+   "b": 1411,
+   "t0": 0,
+   "t1": 8,
+   "line": "two"
+  },
+  {
+   "shot": "S11",
+   "a": 1411,
+   "b": 1427,
+   "t0": 0,
+   "t1": 16,
+   "line": "klicks,"
+  },
+  {
+   "shot": "S8",
+   "a": 1427,
+   "b": 1436,
+   "t0": 0,
+   "t1": 9,
+   "line": "suit"
+  },
+  {
+   "shot": "S11",
+   "a": 1436,
+   "b": 1451,
+   "t0": 0,
+   "t1": 15,
+   "line": "hissing,"
+  },
+  {
+   "shot": "S8",
+   "a": 1451,
+   "b": 1466,
+   "t0": 0,
+   "t1": 15,
+   "line": "stars"
+  },
+  {
+   "shot": "S11",
+   "a": 1466,
+   "b": 1488,
+   "t0": 0,
+   "t1": 22,
+   "line": "forever."
+  },
+  {
+   "shot": "S8",
+   "a": 1488,
+   "b": 1502,
+   "t0": 0,
+   "t1": 14,
+   "line": "D:"
+  },
+  {
+   "shot": "S11",
+   "a": 1502,
+   "b": 1515,
+   "t0": 0,
+   "t1": 13,
+   "line": "Signal"
+  },
+  {
+   "shot": "S8",
+   "a": 1515,
+   "b": 1528,
+   "t0": 0,
+   "t1": 13,
+   "line": "Earth—"
+  },
+  {
+   "shot": "S11",
+   "a": 1528,
+   "b": 1536,
+   "t0": 0,
+   "t1": 8,
+   "line": "dish"
+  },
+  {
+   "shot": "S8",
+   "a": 1536,
+   "b": 1543,
+   "t0": 0,
+   "t1": 7,
+   "line": "aimed"
+  },
+  {
+   "shot": "S11",
+   "a": 1543,
+   "b": 1558,
+   "t0": 0,
+   "t1": 15,
+   "line": "home,"
+  },
+  {
+   "shot": "S8",
+   "a": 1558,
+   "b": 1566,
+   "t0": 0,
+   "t1": 8,
+   "line": "blue"
+  },
+  {
+   "shot": "S11",
+   "a": 1566,
+   "b": 1580,
+   "t0": 0,
+   "t1": 14,
+   "line": "dot,"
+  },
+  {
+   "shot": "S8",
+   "a": 1580,
+   "b": 1594,
+   "t0": 0,
+   "t1": 14,
+   "line": "weeks"
+  },
+  {
+   "shot": "S11",
+   "a": 1594,
+   "b": 1612,
+   "t0": 0,
+   "t1": 18,
+   "line": "of hope."
+  },
+  {
+   "shot": "S12",
+   "a": 1612,
+   "b": 1624,
+   "t0": 0,
+   "t1": 12,
+   "line": "Vote"
+  },
+  {
+   "shot": "S11",
+   "a": 1624,
+   "b": 1649,
+   "t0": 0,
+   "t1": 25,
+   "line": "in comments."
+  },
+  {
+   "shot": "S12",
+   "a": 1649,
+   "b": 1658,
+   "t0": 0,
+   "t1": 9,
+   "line": "Next"
+  },
+  {
+   "shot": "S11",
+   "a": 1658,
+   "b": 1665,
+   "t0": 0,
+   "t1": 7,
+   "line": "part"
+  },
+  {
+   "shot": "S12",
+   "a": 1665,
+   "b": 1702,
+   "t0": 0,
+   "t1": 37,
+   "line": "opens with the oxygen"
+  },
+  {
+   "shot": "S11",
+   "a": 1702,
+   "b": 1727,
+   "t0": 0,
+   "t1": 25,
+   "line": "winner."
+  }
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "size": "medium",
+   "key": 30,
+   "len": 59,
+   "first": 0,
+   "line": "What if your Mars habitat just lost",
+   "note": "Wren in EVA suit, habitat interior, red alarm lights pulsing, O2 gauge dropping"
+  },
+  {
+   "id": "S2",
+   "size": "close-up",
+   "key": 24,
+   "len": 91,
+   "first": 55,
+   "line": "oxygen? You only have two hours to survive.",
+   "note": "Wren's face through gold visor, breath fogging, eyes calculating"
+  },
+  {
+   "id": "S3",
+   "size": "medium",
+   "key": 30,
+   "len": 34,
+   "first": 146,
+   "line": "Ares Prime.",
+   "note": "Commander Voss at rover bay, keys in hand, twelve people watching"
+  },
+  {
+   "id": "S4",
+   "size": "wide insert",
+   "key": 30,
+   "len": 29,
+   "first": 392,
+   "line": "rover",
+   "note": "Rover kicking red dust, Olympus Mons on horizon, Earth rise tiny blue"
+  },
+  {
+   "id": "S5",
+   "size": "medium",
+   "key": 30,
+   "len": 25,
+   "first": 545,
+   "line": "Algae",
+   "note": "Dr. Chen sealing dome hatches, bioluminescent algae tanks glowing green-blue"
+  },
+  {
+   "id": "S6",
+   "size": "close insert",
+   "key": 30,
+   "len": 30,
+   "first": 589,
+   "line": "Engineer",
+   "note": "Algae close-up, bubbles rising, microscopic oxygen factories"
+  },
+  {
+   "id": "S7",
+   "size": "wide insert",
+   "key": 30,
+   "len": 24,
+   "first": 627,
+   "line": "his leaking",
+   "note": "Engineer Kovic on surface, tether to habitat, suit leaking faint frost at seal"
+  },
+  {
+   "id": "S8",
+   "size": "close insert",
+   "key": 30,
+   "len": 20,
+   "first": 918,
+   "line": "Power for",
+   "note": "Boot print in regolith, frost crystals forming, stars pin-sharp"
+  },
+  {
+   "id": "S11",
+   "size": "low angle, tall",
+   "key": 30,
+   "len": 25,
+   "first": 1136,
+   "line": "A:",
+   "note": "Wren small under vast Martian sky, four ghost paths branching — rover, dome, walk, dish"
+  },
+  {
+   "id": "S12",
+   "size": "choice card",
+   "key": 30,
+   "len": 37,
+   "first": 1612,
+   "line": "Vote",
+   "note": "A-D choice card overlay: A ROVER DASH, B GREENHOUSE GAMBLE, C SURFACE WALK, D SIGNAL EARTH"
+  }
+ ],
+ "fx": [
+  {
+   "kind": "flash",
+   "color": "#FF3333",
+   "f": 57
+  },
+  {
+   "kind": "shake",
+   "amp": 6,
+   "f": 394
+  },
+  {
+   "kind": "flash",
+   "color": "#00FF88",
+   "f": 547
+  },
+  {
+   "kind": "shake",
+   "amp": 4,
+   "f": 639
+  },
+  {
+   "kind": "flash",
+   "color": "#4488FF",
+   "f": 735
+  },
+  {
+   "kind": "shake",
+   "amp": 10,
+   "f": 937
+  },
+  {
+   "kind": "flash",
+   "color": "#FFFFFF",
+   "f": 1614
+  }
+ ],
+ "audio": {
+  "voiceVol": 0.8,
+  "sfxVol": 0.1542,
+  "musicVol": 0.1197,
+  "voice": "mars-colony-survival/voice.wav",
+  "sfx": "mars-colony-survival/sfx.wav",
+  "music": "mars-colony-survival/music.wav"
+ },
+ "captions": [
+  {
+   "a": 0,
+   "b": 10,
+   "text": "What if"
+  },
+  {
+   "a": 10,
+   "b": 25,
+   "text": "your Mars"
+  },
+  {
+   "a": 25,
+   "b": 47,
+   "text": "habitat just"
+  },
+  {
+   "a": 47,
+   "b": 84,
+   "text": "lost oxygen?"
+  },
+  {
+   "a": 88,
+   "b": 101,
+   "text": "You only"
+  },
+  {
+   "a": 101,
+   "b": 112,
+   "text": "have two"
+  },
+  {
+   "a": 112,
+   "b": 124,
+   "text": "hours to"
+  },
+  {
+   "a": 124,
+   "b": 148,
+   "text": "survive"
+  },
+  {
+   "a": 148,
+   "b": 182,
+   "text": "Ares Prime"
+  },
+  {
+   "a": 182,
+   "b": 203,
+   "text": "Twelve people"
+  },
+  {
+   "a": 203,
+   "b": 225,
+   "text": "on board"
+  },
+  {
+   "a": 225,
+   "b": 254,
+   "text": "CO2 scrubber"
+  },
+  {
+   "a": 254,
+   "b": 274,
+   "text": "failed"
+  },
+  {
+   "a": 274,
+   "b": 309,
+   "text": "Backup's frozen"
+  },
+  {
+   "a": 309,
+   "b": 325,
+   "text": "Help is"
+  },
+  {
+   "a": 325,
+   "b": 342,
+   "text": "eight months"
+  },
+  {
+   "a": 342,
+   "b": 357,
+   "text": "out"
+  },
+  {
+   "a": 357,
+   "b": 382,
+   "text": "Commander Voss"
+  },
+  {
+   "a": 382,
+   "b": 405,
+   "text": "grabs rover"
+  },
+  {
+   "a": 405,
+   "b": 425,
+   "text": "keys"
+  },
+  {
+   "a": 425,
+   "b": 444,
+   "text": "Eight klicks"
+  },
+  {
+   "a": 444,
+   "b": 461,
+   "text": "to Backup"
+  },
+  {
+   "a": 461,
+   "b": 478,
+   "text": "Hab"
+  },
+  {
+   "a": 478,
+   "b": 491,
+   "text": "Dr"
+  },
+  {
+   "a": 491,
+   "b": 515,
+   "text": "Chen seals"
+  },
+  {
+   "a": 515,
+   "b": 547,
+   "text": "the greenhouse"
+  },
+  {
+   "a": 547,
+   "b": 566,
+   "text": "Algae makes"
+  },
+  {
+   "a": 566,
+   "b": 591,
+   "text": "oxygen"
+  },
+  {
+   "a": 591,
+   "b": 616,
+   "text": "Engineer Kovic"
+  },
+  {
+   "a": 616,
+   "b": 629,
+   "text": "checks his"
+  },
+  {
+   "a": 629,
+   "b": 656,
+   "text": "leaking suit"
+  },
+  {
+   "a": 656,
+   "b": 677,
+   "text": "Surface cache"
+  },
+  {
+   "a": 677,
+   "b": 688,
+   "text": "is two"
+  },
+  {
+   "a": 688,
+   "b": 712,
+   "text": "klicks out"
+  },
+  {
+   "a": 712,
+   "b": 730,
+   "text": "Wait"
+  },
+  {
+   "a": 730,
+   "b": 746,
+   "text": "The comms"
+  },
+  {
+   "a": 746,
+   "b": 760,
+   "text": "dish"
+  },
+  {
+   "a": 760,
+   "b": 772,
+   "text": "boost the"
+  },
+  {
+   "a": 772,
+   "b": 788,
+   "text": "signal"
+  },
+  {
+   "a": 788,
+   "b": 804,
+   "text": "Earth hears"
+  },
+  {
+   "a": 804,
+   "b": 826,
+   "text": "us today"
+  },
+  {
+   "a": 826,
+   "b": 857,
+   "text": "Resupply launches"
+  },
+  {
+   "a": 857,
+   "b": 873,
+   "text": "in six"
+  },
+  {
+   "a": 873,
+   "b": 891,
+   "text": "weeks"
+  },
+  {
+   "a": 891,
+   "b": 903,
+   "text": "Here's the"
+  },
+  {
+   "a": 903,
+   "b": 920,
+   "text": "catch"
+  },
+  {
+   "a": 920,
+   "b": 937,
+   "text": "Power for"
+  },
+  {
+   "a": 937,
+   "b": 955,
+   "text": "ONE"
+  },
+  {
+   "a": 955,
+   "b": 985,
+   "text": "Rover motors"
+  },
+  {
+   "a": 985,
+   "b": 1019,
+   "text": "Greenhouse seals"
+  },
+  {
+   "a": 1019,
+   "b": 1047,
+   "text": "Suit heaters"
+  },
+  {
+   "a": 1047,
+   "b": 1077,
+   "text": "Comms array"
+  },
+  {
+   "a": 1077,
+   "b": 1096,
+   "text": "Pick wrong"
+  },
+  {
+   "a": 1096,
+   "b": 1116,
+   "text": "everyone dies"
+  },
+  {
+   "a": 1116,
+   "b": 1121,
+   "text": "in the"
+  },
+  {
+   "a": 1121,
+   "b": 1138,
+   "text": "dark"
+  },
+  {
+   "a": 1138,
+   "b": 1153,
+   "text": "A"
+  },
+  {
+   "a": 1153,
+   "b": 1179,
+   "text": "Rover dash"
+  },
+  {
+   "a": 1179,
+   "b": 1201,
+   "text": "eight klicks"
+  },
+  {
+   "a": 1201,
+   "b": 1221,
+   "text": "red dust"
+  },
+  {
+   "a": 1221,
+   "b": 1249,
+   "text": "Earth rising"
+  },
+  {
+   "a": 1249,
+   "b": 1263,
+   "text": "B"
+  },
+  {
+   "a": 1263,
+   "b": 1298,
+   "text": "Greenhouse gamble"
+  },
+  {
+   "a": 1298,
+   "b": 1310,
+   "text": "seal the"
+  },
+  {
+   "a": 1310,
+   "b": 1327,
+   "text": "dome"
+  },
+  {
+   "a": 1327,
+   "b": 1349,
+   "text": "watch algae"
+  },
+  {
+   "a": 1349,
+   "b": 1365,
+   "text": "glow"
+  },
+  {
+   "a": 1365,
+   "b": 1378,
+   "text": "C"
+  },
+  {
+   "a": 1378,
+   "b": 1405,
+   "text": "Surface walk"
+  },
+  {
+   "a": 1405,
+   "b": 1429,
+   "text": "two klicks"
+  },
+  {
+   "a": 1429,
+   "b": 1453,
+   "text": "suit hissing"
+  },
+  {
+   "a": 1453,
+   "b": 1490,
+   "text": "stars forever"
+  },
+  {
+   "a": 1490,
+   "b": 1504,
+   "text": "D"
+  },
+  {
+   "a": 1504,
+   "b": 1530,
+   "text": "Signal Earth"
+  },
+  {
+   "a": 1530,
+   "b": 1545,
+   "text": "dish aimed"
+  },
+  {
+   "a": 1545,
+   "b": 1560,
+   "text": "home"
+  },
+  {
+   "a": 1560,
+   "b": 1582,
+   "text": "blue dot"
+  },
+  {
+   "a": 1582,
+   "b": 1596,
+   "text": "weeks of"
+  },
+  {
+   "a": 1596,
+   "b": 1614,
+   "text": "hope"
+  },
+  {
+   "a": 1614,
+   "b": 1626,
+   "text": "Vote in"
+  },
+  {
+   "a": 1626,
+   "b": 1651,
+   "text": "comments"
+  },
+  {
+   "a": 1651,
+   "b": 1667,
+   "text": "Next part"
+  },
+  {
+   "a": 1667,
+   "b": 1681,
+   "text": "opens with"
+  },
+  {
+   "a": 1681,
+   "b": 1704,
+   "text": "the oxygen"
+  },
+  {
+   "a": 1704,
+   "b": 1721,
+   "text": "winner"
+  }
+ ],
+ "captionStyle": {
+  "size": 104,
+  "y": 0.7,
+  "accent": [
+   "oxygen",
+   "two hours",
+   "rover",
+   "algae",
+   "EVA",
+   "resupply"
+  ]
+ }
+}

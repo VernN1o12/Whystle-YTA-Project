@@ -1,0 +1,43 @@
+import { GoldStarCollision, TOTAL as GSC_TOTAL, FPS as GSC_FPS } from './gold-star-collision/Bridge';
+import { SurvivalScenario, TOTAL as SS_TOTAL, FPS as SS_FPS } from './survival-scenario/Bridge';
+import { colorSounds, colorSoundsBoard, TOTAL as CS_TOTAL } from './color-sounds';
+import { MarsColonySurvival, MarsColonySurvivalBoard, TOTAL as MARS_COLONY_SURVIVAL_TOTAL } from './mars-colony-survival';
+
+export const goldStarCollision = {
+  id: 'GoldStarCollision',
+  format: 'shorts' as const,
+  total: GSC_TOTAL,
+  shotCount: 4,
+  Main: GoldStarCollision,
+  Board: GoldStarCollision,
+};
+
+export const survivalScenario = {
+  id: 'SurvivalScenario',
+  format: 'shorts' as const,
+  total: SS_TOTAL,
+  shotCount: 4,
+  Main: SurvivalScenario,
+  Board: SurvivalScenario,
+};
+
+export const colorSoundsEpisode = {
+  id: 'colorSounds',
+  format: 'shorts' as const,
+  total: CS_TOTAL,
+  shotCount: 12,
+  Main: colorSounds,
+  Board: colorSoundsBoard,
+};
+
+
+export const MarsColonySurvivalEpisode = {
+  id: 'MarsColonySurvival',
+  format: 'shorts' as const,
+  total: MARS_COLONY_SURVIVAL_TOTAL,
+  shotCount: 1,
+  Main: MarsColonySurvival,
+  Board: MarsColonySurvivalBoard,
+};
+
+export const EPISODES = [colorSoundsEpisode, goldStarCollision, survivalScenario, MarsColonySurvivalEpisode];

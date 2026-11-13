@@ -1,0 +1,46 @@
+{
+ "episode": "colorSounds",
+ "file": "C:\\Users\\Jelanelle Mayor\\OneDrive\\Documents\\MACASINAG\\YT-SHORTS\\YouTube-Automated-Shorts\\shorts-studio\\out\\color-sounds\\color-sounds-final.mp4",
+ "width": 1080,
+ "height": 1920,
+ "seconds": 44.1,
+ "lufs": -14.0,
+ "true_peak_dbtp": -1.48,
+ "segments": 19,
+ "cuts_per_min": 24.7,
+ "elevenlabs_credits": 2446,
+ "cost_lines": [
+  {
+   "step": "voice",
+   "credits": 729,
+   "note": "729 characters"
+  },
+  {
+   "step": "voice",
+   "credits": 896,
+   "note": "896 characters"
+  },
+  {
+   "step": "sound",
+   "credits": 0,
+   "note": "6 clips, 3.0 s; not all in the history or the counter yet, check the usage page"
+  },
+  {
+   "step": "sound",
+   "credits": 0,
+   "note": "1 clips, 15.0 s; not all in the history or the counter yet, check the usage page"
+  },
+  {
+   "step": "voice",
+   "credits": 821,
+   "note": "821 characters"
+  },
+  {
+   "step": "sound",
+   "credits": 0,
+   "note": "1 clips, 30.0 s; not all in the history or the counter yet, check the usage page"
+  }
+ ],
+ "shorts_ok": true,
+ "shorts_problems": []
+}

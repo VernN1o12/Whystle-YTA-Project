@@ -1,0 +1,279 @@
+{
+  "_note": "TEMPLATE, not a publishable episode. Copy this file to src/episodes/<slug>/episode.json, replace the story, verify every fact, then run check_episode.py. The 81-word snap script and 11-shot list show the shape; a finished Short still needs its own voice, shots and sound.",
+  "id": "ShadowMemory",
+  "slug": "shadow-memory",
+  "topic": "What if your shadow remembered every step you took?",
+  "format": "shorts",
+  "fps": 30,
+  "lead": 2,
+  "tail": 0.5,
+  "voice": {
+    "engine": "kokoro",
+    "id": "am_liam",
+    "speed": 0.9
+  },
+  "short": {
+    "preset": "snap",
+    "pattern": "twist",
+    "route": "code",
+    "title": "What If Your Shadow Remembered Every Step? 🌑",
+    "search_phrase": "shadow memory what if",
+    "wardrobe": "Wren's teal overshirt and rust trousers; the character lock never changes - see references/character.md",
+    "hook": "the shadow keeps the walk, stated in the first three seconds",
+    "loop": "the last image is the first image again: Wren crossing the sunlit studio floor"
+  },
+  "title": [
+    "YOUR SHADOW",
+    "REMEMBERS?"
+  ],
+  "captions": {
+    "on": true,
+    "maxWords": 2,
+    "accent": [
+      "shadow",
+      "three",
+      "million",
+      "nothing"
+    ],
+    "size": 104,
+    "y": 0.7
+  },
+  "script": [
+    {
+      "beat": "1 HOOK (0-3 s): the promise, stated as fact",
+      "text": "What if your shadow remembered every step you took?"
+    },
+    {
+      "beat": "2 SETUP: the hypothetical, labelled, with one concrete image",
+      "text": "Imagine it. You cross a sunlit room and the shape on the floor keeps the walk, like a drawing that will not fade."
+    },
+    {
+      "beat": "3 TURN: the consequence, then the number",
+      "text": "Turn around and it replays you. Leave, and it waits by the door. Every step is a mark: three thousand a day, a million a year."
+    },
+    {
+      "beat": "4 CATCH + LOOP: the real mechanism, then the opening image again",
+      "text": "But a shadow is only the place where light cannot reach. So it remembers nothing. You are the one who keeps every step."
+    }
+  ],
+  "science": [
+    {
+      "claim": "A shadow is the absence of light, not a record of events.",
+      "working": "A shadow is formed where an opaque object blocks the light; it has no memory or structure of its own.",
+      "source": "Basic optics; the shadow-memory premise is explicitly hypothetical",
+      "status": "verified"
+    },
+    {
+      "claim": "A person takes roughly three thousand steps a day, about a million a year.",
+      "working": "3,000 x 365 = 1,095,000; the script rounds to a million. The step count varies widely by person and day.",
+      "source": "Common public-health estimate; re-check the source before publishing",
+      "status": "arithmetic"
+    },
+    {
+      "claim": "A shadow moves when the light or the object moves.",
+      "working": "The shadow is a projection of the blocked light, so its position and shape change with either.",
+      "source": "Basic optics",
+      "status": "verified"
+    }
+  ],
+  "cast": [
+    "wren"
+  ],
+  "shots": [
+    {
+      "id": "S1",
+      "size": "wide",
+      "set": "studio",
+      "key": 30,
+      "note": "Wren crosses the sunlit floor; this is also the loop frame"
+    },
+    {
+      "id": "S2",
+      "size": "medium",
+      "set": "studio",
+      "key": 24,
+      "note": "Wren stops; the shadow holds the walk"
+    },
+    {
+      "id": "S3",
+      "size": "insert, floor level",
+      "set": "studio",
+      "key": 20,
+      "note": "the shadow shape on the boards"
+    },
+    {
+      "id": "S4",
+      "size": "medium",
+      "set": "studio",
+      "key": 18,
+      "note": "Wren turns back toward the shadow"
+    },
+    {
+      "id": "S5",
+      "size": "close",
+      "set": "studio",
+      "key": 16,
+      "note": "Wren watches it replay the step"
+    },
+    {
+      "id": "S6",
+      "size": "wide",
+      "set": "void",
+      "key": 22,
+      "note": "the shadow waits by the door in the dark"
+    },
+    {
+      "id": "S7",
+      "size": "insert, counter",
+      "set": "scan",
+      "key": 20,
+      "note": "the step counter: three thousand a day"
+    },
+    {
+      "id": "S8",
+      "size": "insert, counter",
+      "set": "scan",
+      "key": 20,
+      "note": "the counter rolls to a million a year"
+    },
+    {
+      "id": "S9",
+      "size": "wide",
+      "set": "void",
+      "key": 22,
+      "note": "the light moves; the shadow stretches and forgets"
+    },
+    {
+      "id": "S10",
+      "size": "medium",
+      "set": "studio",
+      "key": 18,
+      "note": "Wren looks at the empty floor"
+    },
+    {
+      "id": "S11",
+      "size": "close",
+      "set": "studio",
+      "key": 16,
+      "note": "the realisation lands on Wren's face"
+    }
+  ],
+  "edit": [
+    {
+      "shot": "S1",
+      "at": "f:0"
+    },
+    {
+      "shot": "S2",
+      "at": "shadow"
+    },
+    {
+      "shot": "S3",
+      "at": "shape"
+    },
+    {
+      "shot": "S4",
+      "at": "Turn"
+    },
+    {
+      "shot": "S5",
+      "at": "replays"
+    },
+    {
+      "shot": "S6",
+      "at": "Leave"
+    },
+    {
+      "shot": "S7",
+      "at": "three"
+    },
+    {
+      "shot": "S8",
+      "at": "million"
+    },
+    {
+      "shot": "S9",
+      "at": "shadow"
+    },
+    {
+      "shot": "S10",
+      "at": "light"
+    },
+    {
+      "shot": "S11",
+      "at": "So"
+    },
+    {
+      "shot": "S1",
+      "at": "step"
+    }
+  ],
+  "fx": [
+    {
+      "at": "S3+2",
+      "kind": "flash"
+    }
+  ],
+  "sound": {
+    "clips": {
+      "step": [
+        "single soft footstep on a wooden floor, close, dry",
+        1.0
+      ],
+      "shimmer": [
+        "short airy shimmer, a shadow moving, no music",
+        1.2
+      ],
+      "music": [
+        "quiet curious synth bed, slow pulse, warm and unsettled",
+        30
+      ]
+    },
+    "events": [
+      [
+        "f:0",
+        "step",
+        0.6
+      ],
+      [
+        "shape",
+        "shimmer",
+        0.4
+      ],
+      [
+        "Turn",
+        "step",
+        0.5
+      ],
+      [
+        "million",
+        "shimmer",
+        0.4
+      ]
+    ],
+    "repeats": [
+      {
+        "at": "step",
+        "clip": "step",
+        "n": 6,
+        "every": 4,
+        "gain": [
+          0.1,
+          0.25
+        ],
+        "pitch": [
+          0.95,
+          1.05
+        ]
+      }
+    ],
+    "music": {
+      "clip": "music",
+      "until": "step#3"
+    },
+    "levels": {
+      "sfx_lu": -5.0,
+      "music_lu": -10.5
+    }
+  }
+}

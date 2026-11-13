@@ -1,0 +1,242 @@
+{
+ "_note": "A TEMPLATE and test fixture, not an episode to publish: the topic is crowded and its facts must be re-verified. Copy the shape (format, short, captions, script beats, science, shots, edit) into src/episodes/<slug>/episode.json.",
+ "id": "FoldPaper",
+ "slug": "fold-paper",
+ "topic": "What if you could fold a sheet of paper 42 times?",
+ "format": "shorts",
+ "short": {
+  "preset": "snap",
+  "pattern": "twist",
+  "route": "code",
+  "title": "Fold Paper 42 Times and It Reaches the Moon 🌙",
+  "search_phrase": "fold paper 42 times moon",
+  "wardrobe": "the hero's outfit for this topic (e.g. beach topic: swim shorts, sunglasses, sun hat); the character lock itself never changes - see references/character.md",
+  "hook": "the promise of the title, with the number, spoken in the first 3 seconds",
+  "loop": "the last image is the first image again: Pip at the desk with a sheet of paper"
+ },
+ "title": [
+  "FOLD PAPER",
+  "42 TIMES?"
+ ],
+ "tail": 0.5,
+ "captions": {
+  "on": true,
+  "maxWords": 3,
+  "accent": [
+   "moon",
+   "twelve",
+   "seven"
+  ]
+ },
+ "script": [
+  {
+   "beat": "1 HOOK (0-3 s): the title's promise, with the number, subject already moving",
+   "text": "Fold a sheet of paper forty-two times, and it reaches the Moon."
+  },
+  {
+   "beat": "2 SETUP: the hypothetical, labelled, then the two facts it rests on",
+   "text": "Imagine it. Paper is a tenth of a millimeter thick. Every fold doubles the stack."
+  },
+  {
+   "beat": "3 ESCALATION: small, then absurd",
+   "text": "Ten folds? As tall as a mug. Thirty folds? Past the edge of space."
+  },
+  {
+   "beat": "4 EVIDENCE: the number, as a picture",
+   "text": "Forty-two folds make four trillion layers, over four hundred thousand kilometers tall."
+  },
+  {
+   "beat": "5 THE CATCH: flips the setup",
+   "text": "Here's the catch. By hand, about seven folds is the limit. The record is twelve."
+  },
+  {
+   "beat": "6 PAYOFF + LOOP: reframes the hook, echoes the opening",
+   "text": "So paper can reach the Moon. You just can't fold it that far."
+  }
+ ],
+ "science": [
+  {
+   "claim": "A sheet of paper is about a tenth of a millimeter thick.",
+   "working": "Typical printer paper, 0.1 mm.",
+   "source": "Live Science, 'How many times can you fold a piece of paper in half?'",
+   "status": "verified (source states about 0.1 mm)"
+  },
+  {
+   "claim": "Forty-two folds make over four trillion layers, over four hundred thousand kilometers tall.",
+   "working": "2^42 = 4,398,046,511,104 layers. x 0.1 mm = 4.398e11 mm = 439,805 km. The Moon's average distance is about 384,400 km, so the stack is past it. 2^41 = 219,902 km is not, so 42 is the first fold that gets there.",
+   "source": "arithmetic; Earth-Moon average distance, NASA",
+   "status": "arithmetic checked; re-check the Moon distance on nasa.gov before publishing"
+  },
+  {
+   "claim": "Ten folds is as tall as a mug; thirty folds is past the edge of space.",
+   "working": "2^10 = 1,024 layers x 0.1 mm = 10.2 cm. 2^30 = 1,073,741,824 layers x 0.1 mm = 107 km, above the 100 km Karman line.",
+   "source": "arithmetic; Karman line (FAI definition of the edge of space, 100 km)",
+   "status": "arithmetic checked; re-check the Karman line source"
+  },
+  {
+   "claim": "By hand about seven folds is the limit, and the record is twelve.",
+   "working": "Seven folds was the commonly accepted limit; 12 folds is the Guinness World Record, made with a tissue-paper roll about 1,219 m long.",
+   "source": "Guinness World Records, 22 Oct 2025; Live Science",
+   "status": "verified; do not name the record holder (no claims about real people)"
+  }
+ ],
+ "cast": [
+  "pipHood"
+ ],
+ "shots": [
+  {
+   "id": "S1",
+   "size": "medium",
+   "set": "study",
+   "key": 14,
+   "note": "Pip at the desk holds a sheet up and folds it once, already moving"
+  },
+  {
+   "id": "S2",
+   "size": "macro insert, top-down",
+   "set": "study (desk top)",
+   "key": 18,
+   "note": "the fold, a crease running down the sheet"
+  },
+  {
+   "id": "S3",
+   "size": "high, wide column",
+   "set": "schematic",
+   "key": 40,
+   "note": "Earth at the bottom, a thin stack rising to a Moon at the top"
+  },
+  {
+   "id": "S4",
+   "size": "close-up",
+   "set": "study",
+   "key": 16,
+   "note": "Pip squints: imagine it"
+  },
+  {
+   "id": "S5",
+   "size": "macro insert",
+   "set": "study (desk top)",
+   "key": 20,
+   "note": "the edge of a sheet next to a ruler: 0.1 mm"
+  },
+  {
+   "id": "S6",
+   "size": "schematic",
+   "set": "schematic",
+   "key": 40,
+   "note": "1, 2, 4, 8 layers: each fold doubles the stack"
+  },
+  {
+   "id": "S7",
+   "size": "macro insert",
+   "set": "study (desk top)",
+   "key": 24,
+   "note": "a stack of paper as tall as a mug, a mug beside it"
+  },
+  {
+   "id": "S8",
+   "size": "low angle, tall",
+   "set": "rooftop",
+   "key": 30,
+   "note": "a paper tower rises past the clouds into a dark sky"
+  },
+  {
+   "id": "S9",
+   "size": "schematic",
+   "set": "schematic",
+   "key": 60,
+   "note": "a counter runs to 4,398,046,511,104 layers beside a Moon marker"
+  },
+  {
+   "id": "S10",
+   "size": "medium",
+   "set": "study",
+   "key": 24,
+   "note": "Pip strains to fold a thick pad; it will not bend"
+  },
+  {
+   "id": "S11",
+   "size": "schematic",
+   "set": "schematic",
+   "key": 36,
+   "note": "a number line: 7 by hand, 12 record, 42 needed"
+  },
+  {
+   "id": "S12",
+   "size": "close-up",
+   "set": "study",
+   "key": 20,
+   "note": "Pip shrugs, sheet in hand"
+  }
+ ],
+ "edit": [
+  {
+   "shot": "S1",
+   "at": "f:0"
+  },
+  {
+   "shot": "S2",
+   "at": "forty"
+  },
+  {
+   "shot": "S3",
+   "at": "reaches"
+  },
+  {
+   "shot": "S4",
+   "at": "Imagine"
+  },
+  {
+   "shot": "S5",
+   "at": "Paper"
+  },
+  {
+   "shot": "S6",
+   "at": "Every"
+  },
+  {
+   "shot": "S7",
+   "at": "Ten"
+  },
+  {
+   "shot": "S8",
+   "at": "Thirty"
+  },
+  {
+   "shot": "S9",
+   "at": "Forty"
+  },
+  {
+   "shot": "S3",
+   "at": "over",
+   "from": 40
+  },
+  {
+   "shot": "S10",
+   "at": "Here's"
+  },
+  {
+   "shot": "S11",
+   "at": "seven"
+  },
+  {
+   "shot": "S10",
+   "at": "record",
+   "from": 60
+  },
+  {
+   "shot": "S12",
+   "at": "So"
+  },
+  {
+   "shot": "S1",
+   "at": "just"
+  }
+ ],
+ "fx": [
+  {
+   "at": "S3+3",
+   "kind": "flash"
+  }
+ ]
+}

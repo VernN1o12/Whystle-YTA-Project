@@ -1,0 +1,379 @@
+// Mars sets: Habitat interior, Mars surface, and Greenhouse for the Mars Colony survival scenario.
+// Painted 3D toon style with ink pass outlines.
+
+import * as THREE from "three";
+import { Batch, lam } from "../../bridge/build";
+import { ctex, rep } from "../../bridge/paint";
+import { addBox, addCyl, plant } from "../props";
+import type { SetHandle } from "../types";
+
+// --- Mars Habitat Interior ---
+const habitatPlaster = () =>
+  ctex("habitatPlaster", 1024, 1024, (g, r) => {
+    g.fillStyle = "#2a1f14";
+    g.fillRect(0, 0, 1024, 1024);
+    // subtle texture
+    for (let i = 0; i < 3000; i++) {
+      g.fillStyle = `rgba(200,150,80,${0.015 + r() * 0.03})`;
+      g.fillRect(r() * 1024, r() * 1024, 2, 1);
+    }
+  });
+
+const habitatTech = () =>
+  ctex("habitatTech", 512, 512, (g) => {
+    g.fillStyle = "#1a2a3a";
+    g.fillRect(0, 0, 512, 512);
+    // glowing control panels
+    for (let i = 0; i < 50; i++) {
+      const x = 20 + i * 85;
+      const w = 30;
+      const h = 40 + (i % 3) * 15;
+      g.fillStyle = "rgba(100, 180, 255, 0.3)";
+      g.fillRect(x, 40, w, h);
+      g.strokeStyle = "rgba(100, 180, 255, 0.6)";
+      g.lineWidth = 2;
+      g.strokeRect(x, 40, w, h);
+    }
+  });
+
+const habitGlow = () =>
+  ctex("habitatGlow", 512, 512, (g) => {
+    const gr = g.createRadialGradient(256, 256, 10, 256, 256, 300);
+    gr.addColorStop(0, "rgba(255,100,50,0.4)");
+    gr.addColorStop(0.5, "rgba(255,100,50,0.15)");
+    gr.addColorStop(1, "rgba(255,100,50,0)");
+    g.fillStyle = gr;
+    g.fillRect(0, 0, 512, 512);
+  });
+
+export const buildHabitat = (): SetHandle => {
+  const root = new THREE.Group();
+  const b = new Batch();
+  const M = {
+    wall: lam("habitatWall", () => ({ map: habitatPlaster() })),
+    floor: lam("habitatFloor", () => ({ color: "#152015" })),
+    ceiling: lam("habitatCeiling", () => ({ color: "#0d1512" })),
+    tech: lam("habitatTech", () => ({ map: habitatTech() })),
+    metal: lam("habitatMetal", () => ({ color: "#2a3a4a" })),
+    redLight: lam("habitatRedLight", () => ({ color: "#ff3333" })),
+    glass: lam("habitatGlass", () => ({ color: "#4a5a7a", transparent: true, opacity: 0.3 })),
+  };
+
+  // Habitat walls - interior of the dome
+  const back = new THREE.Mesh(new THREE.PlaneGeometry(14, 8), M.wall);
+  back.position.set(0, 4, -4);
+  back.rotation.y = 0;
+  back.receiveShadow = true;
+  root.add(back);
+
+  const left = new THREE.Mesh(new THREE.PlaneGeometry(14, 8), M.wall);
+  left.position.set(-4.5, 4, 0);
+  left.rotation.y = Math.PI / 2;
+  left.receiveShadow = true;
+  root.add(left);
+
+  const right = new THREE.Mesh(new THREE.PlaneGeometry(14, 8), M.wall);
+  right.position.set(4.5, 4, 0);
+  right.rotation.y = -Math.PI / 2;
+  right.receiveShadow = true;
+  root.add(right);
+
+  // Floor
+  const floor = new THREE.Mesh(new THREE.PlaneGeometry(14, 14), M.floor);
+  floor.rotation.x = -Math.PI / 2;
+  floor.position.set(0, 0, 0);
+  floor.receiveShadow = true;
+  root.add(floor);
+
+  // Ceiling with glowing O2 gauge
+  const ceiling = new THREE.Mesh(new THREE.PlaneGeometry(14, 14), M.ceiling);
+  ceiling.rotation.x = Math.PI / 2;
+  ceiling.position.set(0, 8, 0);
+  root.add(ceiling);
+
+  // Oxygen gauge - a large red digital display
+  addBox(b, M.redLight, 0, 4.5, -3.8, 0.5, 0.8, 0.1);
+  addBox(b, M.tech, 0, 4.3, -3.7, 1.2, 0.4, 0.05);
+  addBox(b, M.tech, 0, 4.1, -3.7, 1.5, 0.3, 0.05);
+
+  // Dome viewport (glass panel showing Mars sky)
+  const domeGlass = new THREE.Mesh(
+    new THREE.RingGeometry(0.1, 2.5, 32),
+    M.glass,
+  );
+  domeGlass.position.set(0, 5, -4);
+  domeGlass.rotation.x = -0.3;
+  domeGlass.userData = { isDome: true };
+  root.add(domeGlass);
+
+  // Equipment rack
+  addBox(b, M.metal, -2.5, 1.5, -1.5, 0.3, 1.2, 0.3);
+
+  // Rover bay door outline
+  addBox(b, M.metal, 3, 1.8, -0.5, 3.5, 0.2, 8.5);
+
+  b.build(root, true);
+
+  return { root, update: () => {} };
+};
+
+// --- Mars Surface ---
+const marsGround = () =>
+  ctex("marsGround", 1024, 1024, (g, r) => {
+    const gr = g.createLinearGradient(0, 0, 0, 1024);
+    gr.addColorStop(0, "#8a3a10");
+    gr.addColorStop(0.6, "#6b2d0d");
+    gr.addColorStop(1, "#4a1e0a");
+    g.fillStyle = gr;
+    g.fillRect(0, 0, 1024, 1024);
+    // rock textures
+    for (let i = 0; i < 2000; i++) {
+      const x = r() * 1024;
+      const y = r() * 1024;
+      const s = 3 + r() * 20;
+      g.fillStyle = `rgba(150,120,80,${0.15 + r() * 0.2})`;
+      g.beginPath();
+      g.ellipse(x, y, s, s * 0.6, r() * Math.PI, 0, Math.PI * 2);
+      g.fill();
+    }
+    // dust swirls
+    for (let i = 0; i < 50; i++) {
+      const x = r() * 1024;
+      const y = r() * 1024;
+      const w = 10 + r() * 50;
+      const h = 3 + r() * 8;
+      g.fillStyle = `rgba(200,160,100,${0.2 + r() * 0.15})`;
+      g.fillRect(x, y, w, h);
+    }
+  });
+
+const marsSky = () =>
+  ctex("marsSky", 1024, 1024, (g) => {
+    // Mars sky: butterscotch to butterscotch-blue gradient
+    const gr = g.createLinearGradient(0, 0, 0, 1024);
+    gr.addColorStop(0, "#a87c4d");
+    gr.addColorStop(0.3, "#b88c5d");
+    gr.addColorStop(0.7, "#8a6c42");
+    gr.addColorStop(1, "#6b4e25");
+    g.fillStyle = gr;
+    g.fillRect(0, 0, 1024, 1024);
+
+    // Stars on the horizon (bright)
+    for (let i = 0; i < 100; i++) {
+      const x = i * 103 % 1024;
+      const y = (i * 173 % 400) + 50;
+      const s = 1 + (i % 5);
+      g.fillStyle = `rgba(220,220,230,${0.6 + (i % 3) * 0.15})`;
+      g.fillRect(x, y, s, s);
+    }
+  });
+
+const earthView = () =>
+  ctex("earthView", 512, 512, (g, r) => {
+    const gr = g.createRadialGradient(256, 256, 20, 256, 256, 250);
+    gr.addColorStop(0, "rgba(150,200,255,0.4)");
+    gr.addColorStop(0.3, "rgba(120,180,240,0.3)");
+    gr.addColorStop(0.7, "rgba(80,140,200,0.15)");
+    gr.addColorStop(1, "rgba(80,140,200,0)");
+    g.fillStyle = gr;
+    g.fillRect(0, 0, 512, 512);
+
+    // Earth's blue marble
+    g.fillStyle = "#3a7bd5";
+    g.beginPath();
+    g.arc(256, 256, 45, 0, Math.PI * 2);
+    g.fill();
+    g.fillStyle = "#4a9be5";
+    g.beginPath();
+    g.arc(256, 256, 55, 0, Math.PI * 2);
+    g.fill();
+
+    // continents (simplified)
+    g.fillStyle = "#2a5ba0";
+    g.beginPath();
+    g.moveTo(256, 210);
+    g.lineTo(275, 230);
+    g.lineTo(290, 230);
+    g.lineTo(295, 215);
+    g.lineTo(280, 205);
+    g.closePath();
+    g.fill();
+  });
+
+export const buildMarsSurface = (): SetHandle => {
+  const root = new THREE.Group();
+  const M = {
+    ground: lam("marsGround", () => ({ map: marsGround() })),
+    sky: lam("marsSky", () => ({ map: marsSky() })),
+    dust: lam("marsDust", () => ({ color: "#b88c5d" })),
+    rover: lam("marsRover", () => ({ color: "#5a6b8a" })),
+    glass: lam("marsGlass", () => ({ color: "#6a7a9e", transparent: true, opacity: 0.4 })),
+    beacon: lam("marsBeacon", () => ({ color: "#ffaa33" })),
+  };
+
+  // Sky dome
+  const sky = new THREE.Mesh(
+    new THREE.SphereGeometry(30, 32, 20),
+    new THREE.MeshBasicMaterial({ map: marsSky(), side: THREE.BackSide, fog: false }),
+  );
+  root.add(sky);
+
+  // Earth view - a distant blue dot
+  const earthMat = new THREE.MeshBasicMaterial({ map: earthView(), transparent: true, depthWrite: false, blending: THREE.AdditiveBlending });
+  const earth = new THREE.Mesh(
+    new THREE.RingGeometry(0.5, 1.5, 64),
+    earthMat,
+  );
+  earth.position.set(-10, 6, -15);
+  earth.rotation.x = -0.3;
+  earth.userData = { isDome: true };
+  root.add(earth);
+
+  // Ground plane
+  const ground = new THREE.Mesh(new THREE.PlaneGeometry(20, 20), M.ground);
+  ground.rotation.x = -Math.PI / 2;
+  ground.position.set(0, 0.1, 0);
+  ground.receiveShadow = true;
+  root.add(ground);
+
+  // Dust swirl effect
+  const b = new Batch();
+  for (let i = 0; i < 8; i++) {
+    const y = i * 2.5 + 2;
+    addBox(b, M.dust, Math.sin(i) * 4, y, -5 - i * 3, 3 + i * 0.3, 0.2, 2);
+  }
+  b.build(root, true);
+
+  return { root, update: () => {} };
+};
+
+// --- Greenhouse ---
+const greenhouseDome = () =>
+  ctex("greenhouseDome", 1024, 1024, (g, r) => {
+    // Semi-transparent greenish glass
+    const gr = g.createRadialGradient(512, 512, 10, 512, 512, 500);
+    gr.addColorStop(0, "rgba(120,200,150,0.5)");
+    gr.addColorStop(0.5, "rgba(80,160,120,0.3)");
+    gr.addColorStop(1, "rgba(40,100,80,0)");
+    g.fillStyle = gr;
+    g.fillRect(0, 0, 1024, 1024);
+  });
+
+const bioGlow = () =>
+  ctex("bioGlow", 512, 512, (g) => {
+    const gr = g.createRadialGradient(256, 256, 10, 256, 256, 250);
+    gr.addColorStop(0, "rgba(50,200,150,0.6)");
+    gr.addColorStop(0.4, "rgba(40,180,130,0.3)");
+    gr.addColorStop(0.8, "rgba(30,150,100,0.1)");
+    gr.addColorStop(1, "rgba(30,150,100,0)");
+    g.fillStyle = gr;
+    g.fillRect(0, 0, 512, 512);
+  });
+
+export const buildGreenhouse = (): SetHandle => {
+  const root = new THREE.Group();
+  const b = new Batch();
+  const M = {
+    floor: lam("greenhouseFloor", () => ({ color: "#2a3a2a" })),
+    wall: lam("greenhouseWall", () => ({ color: "#3a4a3a" })),
+    glass: lam("greenhouseGlass", () => ({ color: "#4a6a4a", transparent: true, opacity: 0.4 })),
+    algae: lam("greenhouseAlgae", () => ({ color: "#30c974" })),
+    metal: lam("greenhouseMetal", () => ({ color: "#4a5a4a" })),
+    light: lam("greenhouseLight", () => ({ color: "#00ff88", emissive: "#00ff88" })),
+  };
+
+  // Floor
+  const floor = new THREE.Mesh(new THREE.PlaneGeometry(12, 8), M.floor);
+  floor.rotation.x = -Math.PI / 2;
+  floor.position.set(0, 0.1, 0);
+  floor.receiveShadow = true;
+  root.add(floor);
+
+  // Glass walls - create a greenhouse dome
+  const glassMat = new THREE.MeshBasicMaterial({
+    map: greenhouseDome(),
+    transparent: true,
+    opacity: 0.4,
+    blending: THREE.AdditiveBlending,
+    depthWrite: false,
+  });
+
+  // Left wall (vertical)
+  const leftWall = new THREE.Mesh(new THREE.PlaneGeometry(6, 4), glassMat);
+  leftWall.position.set(-2, 2, 0);
+  leftWall.rotation.y = Math.PI / 2;
+  root.add(leftWall);
+
+  // Right wall
+  const rightWall = new THREE.Mesh(new THREE.PlaneGeometry(6, 4), glassMat);
+  rightWall.position.set(2, 2, 0);
+  rightWall.rotation.y = -Math.PI / 2;
+  root.add(rightWall);
+
+  // Back wall with door opening
+  const backWall = new THREE.Mesh(new THREE.PlaneGeometry(6, 4), glassMat);
+  backWall.position.set(0, 2, -3);
+  root.add(backWall);
+
+  // Algae tank - a glass cylinder with glowing green liquid
+  const tank = new THREE.Mesh(
+    new THREE.CylinderGeometry(0.6, 0.6, 2, 32),
+    new THREE.MeshBasicMaterial({
+      map: bioGlow(),
+      transparent: true,
+      opacity: 0.6,
+      blending: THREE.AdditiveBlending,
+    }),
+  );
+  tank.position.set(-1.5, 1.5, -1);
+  root.add(tank);
+
+  // Second algae tank
+  const tank2 = new THREE.Mesh(
+    new THREE.CylinderGeometry(0.6, 0.6, 2, 32),
+    new THREE.MeshBasicMaterial({
+      map: bioGlow(),
+      transparent: true,
+      opacity: 0.6,
+      blending: THREE.AdditiveBlending,
+    }),
+  );
+  tank2.position.set(1.5, 1.5, -1);
+  root.add(tank2);
+
+  // Airlock door frames
+  addBox(b, M.metal, 0, 0.5, -2.5, 2, 0.1, 0.2);
+  addBox(b, M.metal, 0, 1.5, -2.5, 2, 0.1, 0.2);
+
+  b.build(root, true);
+
+  return { root, update: () => {} };
+};
+
+// --- Schematic/Control Panel ---
+export const buildSchematic = (): SetHandle => {
+  const root = new THREE.Group();
+  const M = {
+    panel: lam("schematicPanel", () => ({ color: "#2a2a3a" })),
+    light: lam("schematicLight", () => ({ color: "#ff5555" })),
+    text: lam("schematicText", () => ({ color: "#ffaa88" })),
+  };
+
+  // Semi-transparent floating panel
+  const panel = new THREE.Mesh(
+    new THREE.PlaneGeometry(4, 2.5),
+    new THREE.MeshBasicMaterial({ color: "#2a2a3a", transparent: true, opacity: 0.8, side: THREE.DoubleSide }),
+  );
+  panel.position.set(0, 3, -2);
+  root.add(panel);
+
+  // Control nodes (ONE, TWO, etc.)
+  const nodeMat = new THREE.MeshBasicMaterial({ color: "#ff5555" });
+  for (let i = 0; i < 4; i++) {
+    const node = new THREE.Mesh(new THREE.SphereGeometry(0.15, 16, 16), nodeMat);
+    node.position.set(-1.8 + i * 1.2, 2.2, -2);
+    root.add(node);
+  }
+
+  return { root, update: () => {} };
+};

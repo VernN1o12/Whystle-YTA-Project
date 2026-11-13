@@ -1,0 +1,56 @@
+{
+ "episode": "MarsColonySurvival",
+ "file": "C:\\Users\\Jelanelle Mayor\\OneDrive\\Documents\\MACASINAG\\YT-SHORTS\\YouTube-Automated-Shorts\\shorts-studio\\out\\mars-colony-survival\\mars-colony-survival-final.mp4",
+ "width": 1080,
+ "height": 1920,
+ "seconds": 57.9,
+ "lufs": -14.1,
+ "true_peak_dbtp": -1.47,
+ "segments": 24,
+ "cuts_per_min": 24.0,
+ "elevenlabs_credits": 6431,
+ "cost_lines": [
+  {
+   "step": "voice",
+   "credits": 1013,
+   "note": "1013 characters"
+  },
+  {
+   "step": "voice",
+   "credits": 1052,
+   "note": "898 characters"
+  },
+  {
+   "step": "voice",
+   "credits": 898,
+   "note": "898 characters"
+  },
+  {
+   "step": "sound",
+   "credits": 0,
+   "note": "9 clips, 44.5 s; not all in the history or the counter yet, check the usage page"
+  },
+  {
+   "step": "voice",
+   "credits": 862,
+   "note": "862 characters"
+  },
+  {
+   "step": "voice",
+   "credits": 869,
+   "note": "869 characters"
+  },
+  {
+   "step": "voice",
+   "credits": 860,
+   "note": "860 characters"
+  },
+  {
+   "step": "voice",
+   "credits": 877,
+   "note": "877 characters"
+  }
+ ],
+ "shorts_ok": true,
+ "shorts_problems": []
+}

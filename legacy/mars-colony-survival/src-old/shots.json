@@ -1,0 +1,274 @@
+{
+  "_note": "Visual data for Mars Colony survival scenario. S1-Habitat interior, S4-S9-Mars surface, S5-S6-Greenhouse.",
+  "shots": {
+    "S1": {
+      "set": "habitat",
+      "light": "habitat",
+      "dur": 49,
+      "cam": [
+        { "t": 0, "pos": [1.92, 1.56, 4.4], "look": [0, 1.0, 0], "fov": 32 },
+        { "t": 49, "pos": [1.92, 1.6, 4.2], "look": [0, 1.0, 0], "fov": 32 }
+      ],
+      "actors": [
+        {
+          "name": "wren",
+          "cast": "wren",
+          "x": 0, "y": 0, "z": 0,
+          "expr": "shock",
+          "facing": 0,
+          "wave": 0.8,
+          "fork": true,
+          "headTilt": -2,
+          "keys": [
+            { "t": 0, "expr": "shock", "wave": 0.8 },
+            { "t": 2.4, "expr": "nervous", "wave": 0.9 },
+            { "t": 10, "expr": "pained", "wave": 1.1 },
+            { "t": 30, "expr": "stern", "wave": 0.8 }
+          ]
+        }
+      ],
+      "fx": [
+        { "kind": "ring", "x": 0.5, "y": 2.0, "z": -0.5, "t0": 0, "t1": 14, "size": 1.5, "seed": 0 }
+      ],
+      "dof": { "track": "wren", "cInf": 13 }
+    },
+    "S2": {
+      "set": "habitat",
+      "light": "habitat",
+      "dur": 67,
+      "cam": [
+        { "t": 0, "pos": [1.5, 1.4, 3.8], "look": [0.1, 1.0, 0], "fov": 28 },
+        { "t": 25, "pos": [1.5, 1.4, 3.8], "look": [0.1, 1.0, 0], "fov": 28 }
+      ],
+      "actors": [
+        {
+          "name": "wren",
+          "cast": "wren",
+          "x": 0, "y": 0, "z": 0,
+          "expr": "pained",
+          "facing": 2,
+          "wave": 1.0,
+          "fork": true,
+          "keys": [
+            { "t": 0, "expr": "pained", "wave": 1.0, "look": 2 },
+            { "t": 2.5, "expr": "stern", "wave": 0.9 },
+            { "t": 20, "expr": "shock", "wave": 1.1 }
+          ]
+        }
+      ],
+      "dof": { "track": "wren", "cInf": 10 }
+    },
+    "S3": {
+      "set": "habitat",
+      "light": "habitat",
+      "dur": 42,
+      "cam": [
+        { "t": 0, "pos": [1.8, 1.5, 3.5], "look": [0.3, 0.8, 0], "fov": 30 },
+        { "t": 42, "pos": [1.8, 1.5, 3.5], "look": [0.3, 0.8, 0], "fov": 30 }
+      ],
+      "actors": [
+        {
+          "name": "wren",
+          "cast": "wren",
+          "x": 0, "y": 0, "z": 0,
+          "expr": "stern",
+          "facing": -1,
+          "wave": 1.0,
+          "fork": true,
+          "keys": [
+            { "t": 0, "expr": "stern", "wave": 1.0 },
+            { "t": 15, "expr": "shock", "wave": 1.2 },
+            { "t": 35, "expr": "stern", "wave": 1.0 }
+          ]
+        }
+      ],
+      "dof": { "track": "wren", "cInf": 12 }
+    },
+    "S4": {
+      "set": "mars_surface",
+      "light": "mars",
+      "dur": 18,
+      "cam": [
+        { "t": 0, "pos": [0, 1.5, 2], "look": [0, 1.0, -0.5], "fov": 28 },
+        { "t": 18, "pos": [0, 1.4, 2], "look": [0, 1.0, -0.5], "fov": 28 }
+      ],
+      "actors": [
+        {
+          "name": "wren",
+          "cast": "wren",
+          "x": 0, "y": 0, "z": -0.5,
+          "expr": "stern",
+          "facing": -1,
+          "wave": 1.0,
+          "fork": false,
+          "keys": [
+            { "t": 0, "expr": "stern", "wave": 1.0 },
+            { "t": 9, "expr": "stern", "wave": 1.1 }
+          ]
+        }
+      ],
+      "fx": [
+        { "kind": "ring", "x": -2, "y": 1.5, "z": -3, "t0": 0, "t1": 10, "size": 1.2, "seed": 1 }
+      ],
+      "dof": { "track": "wren", "cInf": 15 }
+    },
+    "S5": {
+      "set": "greenhouse",
+      "light": "greenhouse",
+      "dur": 27,
+      "cam": [
+        { "t": 0, "pos": [0, 1.6, 3], "look": [0, 1.0, 0], "fov": 32 },
+        { "t": 27, "pos": [0, 1.6, 3], "look": [0, 1.0, 0], "fov": 32 }
+      ],
+      "actors": [
+        {
+          "name": "wren",
+          "cast": "wren",
+          "x": 0, "y": 0, "z": 0,
+          "expr": "neutral",
+          "facing": 0,
+          "wave": 0.9,
+          "fork": true,
+          "keys": [
+            { "t": 0, "expr": "neutral", "wave": 0.9 },
+            { "t": 12, "expr": "relief", "wave": 1.0 }
+          ]
+        }
+      ],
+      "dof": { "track": "wren", "cInf": 14 }
+    },
+    "S6": {
+      "set": "greenhouse",
+      "light": "greenhouse",
+      "dur": 25,
+      "cam": [
+        { "t": 0, "pos": [-1, 1.5, -1], "look": [0, 1.0, 0], "fov": 24 },
+        { "t": 25, "pos": [1, 1.5, -1], "look": [0, 1.0, 0], "fov": 24 }
+      ],
+      "actors": [
+        {
+          "name": "wren",
+          "cast": "wren",
+          "x": 0, "y": 0, "z": 0,
+          "expr": "grin",
+          "facing": 1,
+          "wave": 0.8,
+          "fork": true,
+          "keys": [
+            { "t": 0, "expr": "grin", "wave": 0.8 },
+            { "t": 15, "expr": "shock", "wave": 0.9 }
+          ]
+        }
+      ],
+      "fx": [
+        { "kind": "ring", "x": 0, "y": 2, "z": -1.5, "t0": 5, "t1": 25, "size": 2.0, "seed": 2 }
+      ],
+      "dof": { "track": "wren", "cInf": 12 }
+    },
+    "S7": {
+      "set": "mars_surface",
+      "light": "mars",
+      "dur": 28,
+      "cam": [
+        { "t": 0, "pos": [-2, 1.6, 0], "look": [1.5, 0.8, -0.3], "fov": 30 },
+        { "t": 28, "pos": [0, 1.5, 0], "look": [0.5, 0.8, -0.3], "fov": 30 }
+      ],
+      "actors": [
+        {
+          "name": "wren",
+          "cast": "wren",
+          "x": 0, "y": 0, "z": 0,
+          "expr": "nervous",
+          "facing": 1,
+          "wave": 0.85,
+          "fork": true,
+          "keys": [
+            { "t": 0, "expr": "nervous", "wave": 0.85 },
+            { "t": 15, "expr": "pained", "wave": 0.9 }
+          ]
+        }
+      ],
+      "fx": [
+        { "kind": "ring", "x": 2, "y": 1.5, "z": 2, "t0": 0, "t1": 12, "size": 1.0, "seed": 3 }
+      ],
+      "dof": { "track": "wren", "cInf": 18 }
+    },
+    "S8": {
+      "set": "mars_surface",
+      "light": "mars",
+      "dur": 18,
+      "cam": [
+        { "t": 0, "pos": [0, 1.6, -3], "look": [0, 0.8, 0], "fov": 26 },
+        { "t": 18, "pos": [0, 1.6, -3], "look": [0, 0.8, 0], "fov": 26 }
+      ],
+      "actors": [
+        {
+          "name": "wren",
+          "cast": "wren",
+          "x": 0, "y": 0, "z": 0,
+          "expr": "dazed",
+          "facing": 0,
+          "wave": 0.7,
+          "fork": true,
+          "keys": [
+            { "t": 0, "expr": "dazed", "wave": 0.7 },
+            { "t": 9, "expr": "relief_open", "wave": 0.8 }
+          ]
+        }
+      ],
+      "fx": [
+        { "kind": "ring", "x": 0, "y": 1.8, "z": -2, "t0": 0, "t1": 8, "size": 1.5, "seed": 4 }
+      ],
+      "dof": { "track": "wren", "cInf": 20 }
+    },
+    "S9": {
+      "set": "habitat",
+      "light": "habitat",
+      "dur": 18,
+      "cam": [
+        { "t": 0, "pos": [2, 1.5, 0.5], "look": [0, 1.0, -0.3], "fov": 28 },
+        { "t": 18, "pos": [2, 1.5, 0.5], "look": [0, 1.0, -0.3], "fov": 28 }
+      ],
+      "actors": [],
+      "fx": [
+        { "kind": "ring", "x": 0, "y": 2.5, "z": 1, "t0": 0, "t1": 8, "size": 2.0, "seed": 5 }
+      ],
+      "dof": { "track": "wren", "cInf": 15 }
+    },
+    "S10": {
+      "set": "studio",
+      "light": "studio",
+      "dur": 19,
+      "cam": [
+        { "t": 0, "pos": [0, 2, 0], "look": [0, 1.0, 0], "fov": 32 },
+        { "t": 19, "pos": [0, 2, 0], "look": [0, 1.0, 0], "fov": 32 }
+      ],
+      "actors": [],
+      "dof": { "track": "wren", "cInf": 10 }
+    },
+    "S11": {
+      "set": "mars_surface",
+      "light": "mars",
+      "dur": 22,
+      "cam": [
+        { "t": 0, "pos": [0, 1.2, -5], "look": [0, 1.0, 0.5], "fov": 28 },
+        { "t": 22, "pos": [0, 1.2, -5], "look": [0, 1.0, 0.5], "fov": 28 }
+      ],
+      "actors": [],
+      "fx": [
+        { "kind": "star", "x": 0, "y": 2, "z": -10, "t0": 0, "t1": 22, "size": 3, "seed": 6 }
+      ],
+      "dof": { "track": "wren", "cInf": 30 }
+    },
+    "S12": {
+      "set": "studio",
+      "light": "studio",
+      "dur": 25,
+      "cam": [
+        { "t": 0, "pos": [0, 1.5, 3], "look": [0, 0.8, 0], "fov": 30 }
+      ],
+      "actors": [],
+      "dof": { "track": "wren", "cInf": 8 }
+    }
+  }
+}

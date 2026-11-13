@@ -1,0 +1,52 @@
+{
+ "episode": "MarsColonySurvival",
+ "file": "C:\\Users\\Jelanelle Mayor\\OneDrive\\Documents\\MACASINAG\\YT-SHORTS\\YouTube-Automated-Shorts\\shorts-studio\\out\\mars-colony-survival\\mars-colony-survival-final.mp4",
+ "width": 1080,
+ "height": 1920,
+ "seconds": 89.2,
+ "lufs": -14.0,
+ "true_peak_dbtp": -1.5,
+ "preset": "choice-long",
+ "max_seconds": 150,
+ "segments": 32,
+ "cuts_per_min": 21.0,
+ "elevenlabs_credits": 2383,
+ "cost_lines": [
+  {
+   "step": "voice",
+   "credits": 1189,
+   "engine": "elevenlabs",
+   "model": "eleven_multilingual_v2",
+   "voice_id": "EXAVITQu4vr4xnSDxMaL",
+   "characters": 1189,
+   "note": "default speed take, 81.41 s raw"
+  },
+  {
+   "step": "voice",
+   "credits": 1189,
+   "engine": "elevenlabs",
+   "model": "eleven_multilingual_v2",
+   "voice_id": "EXAVITQu4vr4xnSDxMaL",
+   "characters": 1189,
+   "note": "speed 0.9 take, 89.44 s raw"
+  },
+  {
+   "step": "voice-test",
+   "credits": 5,
+   "engine": "elevenlabs",
+   "model": "eleven_multilingual_v2",
+   "voice_id": "EXAVITQu4vr4xnSDxMaL",
+   "note": "speed setting validation"
+  },
+  {
+   "step": "summary",
+   "credits": 0,
+   "total_credits": 2383,
+   "balance": 856,
+   "account_limit": 10000,
+   "note": "voice 2,383 credits; SFX 0 (10 cached clips)"
+  }
+ ],
+ "shorts_ok": true,
+ "shorts_problems": []
+}

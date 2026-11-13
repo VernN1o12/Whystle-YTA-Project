@@ -1,0 +1,36 @@
+{
+  "_note": "The channel brief the skill reads at the start of every run. Keep it current: add each finished Short to topics_made and each upload to uploads. Copy assets/channel.template.json for a fresh channel.",
+  "channel_name": "Whystle Animations",
+  "language": "English",
+  "route": "code",
+  "default_niche": "What-if & paradox explainers; survival choice Shorts",
+  "default_preset": "snap",
+  "presets": {
+    "snap": { "max_seconds": 35, "words": "62-90", "shots": "8-14" },
+    "twist": { "max_seconds": 57, "words": "115-148", "shots": "16-26" },
+    "choice": { "max_seconds": 59, "words": "115-155", "shots": "18-28" },
+    "choice-long": { "max_seconds": 150, "words": "190-260", "shots": "20-36", "note": "Wren POV; ends on a timeline.vote 4-up card" }
+  },
+  "character": {
+    "lock": "assets/character/wren-lock.png",
+    "hero": "Wren",
+    "wardrobe_rule": "Wardrobe, hair styling and props change with the topic; the head, face, proportions, line weight and colour logic never change. See references/character.md."
+  },
+  "voice": {
+    "code_route": "KokoroTTS at localhost:7860 for the voice (free); ElevenLabs for SFX/music and only as an explicit voice fallback",
+    "one_narrator": true
+  },
+  "topics_made": [
+    "Colors make sounds (synesthesia) — twist",
+    "Mars colony life support failure — choice-long (Wren POV, C surface walk)",
+    "Earth's 1,600 km/h spin and why you feel nothing — snap"
+  ],
+  "never_reuse_from_competitors": [
+    "teleportation",
+    "uploading a brain",
+    "a steel-ball sleep trick",
+    "picking random numbers"
+  ],
+  "winning_phrases": [],
+  "uploads": []
+}

@@ -1,0 +1,319 @@
+{
+  "_note": "Visual data for mars-colony-survival. Camera and actor key t is the shot clock in SECONDS; timeline.json supplies the edit in frames. Sets: habitat, mars_surface, greenhouse, schematic.",
+  "shots": {
+    "H1": {
+      "set": "habitat",
+      "light": "habitat",
+      "dur": 3.83,
+      "cam": [
+        { "t": 0, "pos": [1.1, 1.55, 1.6], "look": [0.4, 1.5, -3.0], "fov": 40 },
+        { "t": 3.83, "pos": [1.02, 1.54, 1.45], "look": [0.38, 1.49, -3.05], "fov": 39 }
+      ],
+      "actors": [
+        {
+          "name": "voss",
+          "cast": "voss",
+          "x": 0.35, "y": 0, "z": -2.25,
+          "expr": "stern",
+          "facing": 1,
+          "helmet": "off",
+          "look": -0.3,
+          "keys": [
+            { "t": 0, "expr": "stern", "headTilt": 1, "look": -0.4 },
+            { "t": 1.8, "expr": "nervous", "headTilt": -2, "look": 0.2 },
+            { "t": 3.83, "expr": "shock", "headTilt": -1, "look": 0.4 }
+          ]
+        }
+      ],
+      "dof": { "track": "voss", "cInf": 13 }
+    },
+    "H2": {
+      "set": "habitat",
+      "light": "habitat",
+      "dur": 3.37,
+      "cam": [
+        { "t": 0, "pos": [1.65, 2.25, -1.85], "look": [0.95, 2.55, -5.0], "fov": 26 },
+        { "t": 3.37, "pos": [1.5, 2.22, -2.0], "look": [0.95, 2.55, -5.0], "fov": 25 }
+      ],
+      "actors": [],
+      "dof": { "focus": 3.3, "cInf": 8 }
+    },
+    "H3": {
+      "set": "habitat",
+      "light": "habitat",
+      "dur": 1.13,
+      "cam": [
+        { "t": 0, "pos": [0.0, 1.58, 4.55], "look": [-0.2, 1.15, -2.2], "fov": 46 },
+        { "t": 1.13, "pos": [0.05, 1.58, 4.4], "look": [-0.15, 1.14, -2.3], "fov": 45 }
+      ],
+      "actors": [
+        { "name": "voss", "cast": "voss", "x": -0.3, "y": 0, "z": 0.3, "expr": "stern", "facing": 1, "helmet": "off", "look": -0.2 },
+        { "name": "chen", "cast": "chen", "x": 0.0, "y": 0, "z": -2.3, "expr": "stern", "facing": 1, "helmet": "off", "prop": "seal", "look": 0.2 },
+        { "name": "kovic", "cast": "kovic", "x": 0.95, "y": 0, "z": -1.9, "expr": "neutral", "facing": -1, "helmet": "carry", "look": -0.1 }
+      ],
+      "dof": { "focus": 6.2, "cInf": 16 }
+    },
+    "H3b": {
+      "set": "habitat",
+      "light": "habitat",
+      "dur": 1.97,
+      "cam": [
+        { "t": 0, "pos": [1.35, 1.62, 1.2], "look": [2.6, 1.75, -3.9], "fov": 34 },
+        { "t": 1.97, "pos": [1.65, 1.6, 0.9], "look": [2.9, 1.7, -4.2], "fov": 32 }
+      ],
+      "actors": [
+        { "name": "voss", "cast": "voss", "x": 0.75, "y": 0, "z": 0.25, "expr": "stern", "facing": 1, "helmet": "off", "prop": "clipboard", "look": 0.3 }
+      ],
+      "dof": { "focus": 4.2, "cInf": 12 }
+    },
+    "H4": {
+      "set": "habitat",
+      "light": "habitat",
+      "dur": 1.1,
+      "cam": [
+        { "t": 0, "pos": [2.55, 1.55, -2.0], "look": [3.25, 1.6, -4.15], "fov": 38 },
+        { "t": 1.1, "pos": [2.6, 1.54, -2.1], "look": [3.25, 1.59, -4.18], "fov": 37 }
+      ],
+      "actors": [],
+      "dof": { "focus": 2.3, "cInf": 7 }
+    },
+    "H5": {
+      "set": "habitat",
+      "light": "habitat",
+      "dur": 2.77,
+      "cam": [
+        { "t": 0, "pos": [-0.9, 1.55, -1.6], "look": [-4.2, 1.7, -2.65], "fov": 44 },
+        { "t": 2.77, "pos": [-1.0, 1.54, -1.75], "look": [-4.2, 1.69, -2.7], "fov": 43 }
+      ],
+      "actors": [],
+      "dof": { "focus": 3.7, "cInf": 8 }
+    },
+    "M1": {
+      "set": "mars_surface",
+      "light": "mars",
+      "dur": 7.4,
+      "cam": [
+        { "t": 0, "pos": [1.5, 1.66, 3.8], "look": [0.0, 1.22, -1.6], "fov": 42 },
+        { "t": 3.7, "pos": [1.65, 1.63, 3.4], "look": [0.15, 1.2, -1.8], "fov": 40 },
+        { "t": 7.4, "pos": [1.95, 1.72, 2.7], "look": [2.25, 1.02, -2.9], "fov": 43 }
+      ],
+      "actors": [
+        {
+          "name": "voss",
+          "cast": "voss",
+          "x": 0.25, "y": 0, "z": 0.35,
+          "expr": "stern",
+          "facing": 0,
+          "helmet": "off",
+          "prop": "keys",
+          "wave": 0.55,
+          "look": -0.2,
+          "keys": [
+            { "t": 0, "expr": "stern", "headTilt": 1, "look": -0.3 },
+            { "t": 3.7, "expr": "grin", "headTilt": -1, "look": 0.2 },
+            { "t": 7.4, "expr": "stern", "headTilt": 0, "look": 0.3 }
+          ]
+        }
+      ],
+      "dof": { "track": "voss", "cInf": 15 }
+    },
+    "M2": {
+      "set": "mars_surface",
+      "light": "mars",
+      "dur": 2.2,
+      "cam": [
+        { "t": 0, "pos": [0.15, 1.9, 3.9], "look": [-2.3, 2.15, -14.5], "fov": 31 },
+        { "t": 2.2, "pos": [0.1, 1.88, 3.7], "look": [-2.35, 2.1, -14.5], "fov": 30 }
+      ],
+      "actors": [],
+      "dof": { "focus": 10.2, "cInf": 13 }
+    },
+    "M3": {
+      "set": "greenhouse",
+      "light": "greenhouse",
+      "dur": 5.87,
+      "cam": [
+        { "t": 0, "pos": [0.2, 1.55, 3.55], "look": [0.1, 1.2, -2.6], "fov": 36 },
+        { "t": 2.0, "pos": [0.1, 1.52, 3.1], "look": [0.15, 1.2, -2.8], "fov": 34 },
+        { "t": 5.87, "pos": [-0.1, 1.5, 2.7], "look": [0.2, 1.2, -3.0], "fov": 33 }
+      ],
+      "actors": [
+        {
+          "name": "chen",
+          "cast": "chen",
+          "x": 0.25, "y": 0, "z": -2.35,
+          "expr": "stern",
+          "facing": 0,
+          "helmet": "off",
+          "prop": "seal",
+          "look": 0,
+          "keys": [
+            { "t": 0, "expr": "stern", "headTilt": 2, "look": 0.1 },
+            { "t": 2.0, "expr": "pained", "headTilt": -1, "look": -0.2 },
+            { "t": 4.2, "expr": "relief", "headTilt": 1, "look": 0.1 },
+            { "t": 5.87, "expr": "smile", "headTilt": 0, "look": 0 }
+          ]
+        }
+      ],
+      "dof": { "track": "chen", "cInf": 12 }
+    },
+    "M4": {
+      "set": "greenhouse",
+      "light": "greenhouse",
+      "dur": 1.47,
+      "cam": [
+        { "t": 0, "pos": [2.3, 1.5, 2.35], "look": [0.0, 1.6, -2.6], "fov": 48 },
+        { "t": 1.47, "pos": [2.12, 1.48, 2.15], "look": [0.0, 1.6, -2.6], "fov": 47 }
+      ],
+      "actors": [],
+      "dof": { "focus": 5.4, "cInf": 10 }
+    },
+    "M5": {
+      "set": "mars_surface",
+      "light": "mars",
+      "dur": 0.83,
+      "cam": [
+        { "t": 0, "pos": [1.7, 1.55, 4.2], "look": [0.0, 1.05, -0.4], "fov": 38 },
+        { "t": 0.83, "pos": [1.55, 1.54, 4.0], "look": [0.0, 1.04, -0.45], "fov": 37 }
+      ],
+      "actors": [
+        {
+          "name": "kovic",
+          "cast": "kovic",
+          "x": 0.1, "y": 0, "z": 0,
+          "expr": "stern",
+          "facing": 1,
+          "helmet": "on",
+          "mode": "march",
+          "phase": 0.1,
+          "keys": [
+            { "t": 0, "phase": 0.1, "expr": "stern", "headTilt": 1 },
+            { "t": 0.83, "phase": 0.38, "expr": "nervous", "headTilt": -1 }
+          ]
+        }
+      ],
+      "dof": { "track": "kovic", "cInf": 10 }
+    },
+    "M6": {
+      "set": "mars_surface",
+      "light": "mars",
+      "dur": 6.97,
+      "cam": [
+        { "t": 0, "pos": [0.3, 1.66, 3.0], "look": [0.02, 1.36, -0.1], "fov": 32 },
+        { "t": 6.97, "pos": [0.22, 1.65, 2.82], "look": [0.02, 1.35, -0.1], "fov": 31 }
+      ],
+      "actors": [
+        {
+          "name": "kovic",
+          "cast": "kovic",
+          "x": 0, "y": 0, "z": 0,
+          "expr": "stern",
+          "facing": 0,
+          "helmet": "on",
+          "phase": 0,
+          "look": -0.2,
+          "keys": [
+            { "t": 0, "expr": "stern", "phase": 0, "headTilt": 1, "look": -0.2 },
+            { "t": 3.5, "expr": "pained", "phase": 0.55, "headTilt": -1, "look": 0.1 },
+            { "t": 6.97, "expr": "pained", "phase": 1, "headTilt": -2, "look": 0.2 }
+          ]
+        }
+      ],
+      "dof": { "track": "kovic", "cInf": 8 }
+    },
+    "M7": {
+      "set": "mars_surface",
+      "light": "mars",
+      "dur": 6.73,
+      "cam": [
+        { "t": 0, "pos": [3.3, 0.78, 1.0], "look": [5.0, 3.35, -7.2], "fov": 40 },
+        { "t": 6.73, "pos": [3.15, 0.8, 0.8], "look": [5.0, 3.45, -7.2], "fov": 39 }
+      ],
+      "actors": [],
+      "dof": { "focus": 8.4, "cInf": 14 }
+    },
+    "M8": {
+      "set": "mars_surface",
+      "light": "mars",
+      "dur": 1.27,
+      "cam": [
+        { "t": 0, "pos": [0.1, 1.75, 0.3], "look": [3.8, 5.35, -18.0], "fov": 23 },
+        { "t": 1.27, "pos": [0.1, 1.76, 0.2], "look": [3.8, 5.35, -18.0], "fov": 22 }
+      ],
+      "actors": [],
+      "dof": { "focus": 19.0, "cInf": 25 }
+    },
+    "M9": {
+      "set": "habitat",
+      "light": "habitat",
+      "dur": 2.57,
+      "cam": [
+        { "t": 0, "pos": [-2.95, 1.72, 1.5], "look": [-2.95, 1.6, -5.07], "fov": 28 },
+        { "t": 2.57, "pos": [-2.95, 1.71, 1.3], "look": [-2.95, 1.6, -5.07], "fov": 27.5 }
+      ],
+      "actors": [],
+      "dof": { "focus": 6.6, "cInf": 9 }
+    },
+    "P1": {
+      "set": "schematic",
+      "light": "schematic",
+      "dur": 1.73,
+      "phase": 0,
+      "cam": [
+        { "t": 0, "pos": [0.0, 1.95, 3.6], "look": [0, 2.0, -3.1], "fov": 46 },
+        { "t": 1.73, "pos": [0.0, 1.93, 3.4], "look": [0, 2.0, -3.1], "fov": 45 }
+      ],
+      "actors": [],
+      "dof": { "focus": 6.9, "cInf": 14 }
+    },
+    "P2": {
+      "set": "schematic",
+      "light": "schematic",
+      "dur": 2.13,
+      "phase": 1,
+      "cam": [
+        { "t": 0, "pos": [0.0, 1.9, 2.8], "look": [0, 2.05, -3.1], "fov": 48 },
+        { "t": 2.13, "pos": [0.0, 1.88, 2.65], "look": [0, 2.05, -3.1], "fov": 47 }
+      ],
+      "actors": [],
+      "dof": { "focus": 6.1, "cInf": 11 }
+    },
+    "P3": {
+      "set": "schematic",
+      "light": "schematic",
+      "dur": 1.93,
+      "phase": 2,
+      "cam": [
+        { "t": 0, "pos": [0.0, 1.86, 2.6], "look": [0, 2.02, -3.1], "fov": 48 },
+        { "t": 1.93, "pos": [0.0, 1.84, 2.45], "look": [0, 2.02, -3.1], "fov": 47 }
+      ],
+      "actors": [],
+      "dof": { "focus": 5.9, "cInf": 11 }
+    },
+    "P4": {
+      "set": "habitat",
+      "light": "habitat",
+      "dur": 2.03,
+      "cam": [
+        { "t": 0, "pos": [0.7, 1.62, 1.6], "look": [0.25, 1.55, -2.0], "fov": 34 },
+        { "t": 2.03, "pos": [0.62, 1.61, 1.45], "look": [0.2, 1.54, -2.0], "fov": 33 }
+      ],
+      "actors": [
+        {
+          "name": "voss",
+          "cast": "voss",
+          "x": 0.2, "y": 0, "z": -1.15,
+          "expr": "stern",
+          "facing": 0,
+          "helmet": "off",
+          "look": 0,
+          "keys": [
+            { "t": 0, "expr": "stern", "headTilt": 1, "look": 0 },
+            { "t": 2.03, "expr": "pained", "headTilt": -1, "look": -0.1 }
+          ]
+        }
+      ],
+      "dof": { "track": "voss", "cInf": 9 }
+    }
+  }
+}

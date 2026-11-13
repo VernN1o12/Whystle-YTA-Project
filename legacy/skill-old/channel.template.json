@@ -1,0 +1,25 @@
+{
+ "_note": "Copy to the studio folder as channel.json. The skill reads it at the start of every run (the V3 'MY INPUT' block) and updates topics_made and uploads. Edit freely.",
+ "channel_name": "Whystle Animations",
+ "language": "English",
+ "route": "code",
+ "default_niche": "What If & Paradox explainers (non-medical)",
+ "default_preset": "snap",
+ "character": {
+  "lock": "assets/character/character-lock.jpg",
+  "hero": "the character-lock stick figure (rig: pipHood) appears in every video",
+  "wardrobe_rule": "Wardrobe, hair and accessories change with each video's topic (beach topic = beach outfit); the head, face, proportions and line style never change. See references/character.md."
+ },
+ "voice": {
+  "code_route": "ElevenLabs: the episode.json voice block, or the studio default",
+  "flow_route": "FLOW VOICE (fixed): the [VOICE LOCK] in references/flow-route.md"
+ },
+ "topics_made": [
+  "Birthday paradox (23 people share a birthday)"
+ ],
+ "never_reuse_from_competitors": [
+  "teleportation", "uploading a brain", "a steel-ball sleep trick", "picking random numbers"
+ ],
+ "winning_phrases": [],
+ "uploads": []
+}

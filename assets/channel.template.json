@@ -1,0 +1,32 @@
+{
+  "_note": "Copy this file to the skill root as channel.json for a fresh channel. The skill reads it at the start of every run and updates topics_made and uploads.",
+  "channel_name": "Whystle Animations",
+  "language": "English",
+  "route": "code",
+  "default_niche": "What-if & paradox explainers; survival choice Shorts",
+  "default_preset": "snap",
+  "presets": {
+    "snap": { "max_seconds": 35, "words": "62-90", "shots": "8-14" },
+    "twist": { "max_seconds": 57, "words": "115-148", "shots": "16-26" },
+    "choice": { "max_seconds": 59, "words": "115-155", "shots": "18-28" },
+    "choice-long": { "max_seconds": 150, "words": "190-260", "shots": "20-36", "note": "Wren POV; ends on a timeline.vote 4-up card" }
+  },
+  "character": {
+    "lock": "assets/character/wren-lock.png",
+    "hero": "Wren",
+    "wardrobe_rule": "Wardrobe, hair styling and props change with the topic; the head, face, proportions, line weight and colour logic never change. See references/character.md."
+  },
+  "voice": {
+    "code_route": "KokoroTTS at localhost:7860 for the voice (free); ElevenLabs for SFX/music and only as an explicit voice fallback",
+    "one_narrator": true
+  },
+  "topics_made": [],
+  "never_reuse_from_competitors": [
+    "teleportation",
+    "uploading a brain",
+    "a steel-ball sleep trick",
+    "picking random numbers"
+  ],
+  "winning_phrases": [],
+  "uploads": []
+}

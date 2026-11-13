@@ -1,0 +1,862 @@
+{
+ "slug": "mars-colony-survival",
+ "title": "MARS COLONY: Life Support Failed You Have two hours to live 🚀🔴 Oxygen Lost on Mars",
+ "format": "shorts",
+ "fps": 30,
+ "total": 1727,
+ "segments": [
+  {
+   "shot": "H1",
+   "a": 0,
+   "b": 45,
+   "t0": 0,
+   "t1": 45,
+   "line": "What if your Mars habitat just"
+  },
+  {
+   "shot": "H2",
+   "a": 45,
+   "b": 146,
+   "t0": 0,
+   "t1": 101,
+   "line": "lost oxygen? You only have two hours to survive."
+  },
+  {
+   "shot": "H3",
+   "a": 146,
+   "b": 180,
+   "t0": 0,
+   "t1": 34,
+   "line": "Ares Prime."
+  },
+  {
+   "shot": "H3b",
+   "a": 180,
+   "b": 239,
+   "t0": 0,
+   "t1": 59,
+   "line": "Twelve people on board. CO2"
+  },
+  {
+   "shot": "H4",
+   "a": 239,
+   "b": 272,
+   "t0": 0,
+   "t1": 33,
+   "line": "scrubber failed."
+  },
+  {
+   "shot": "H5",
+   "a": 272,
+   "b": 355,
+   "t0": 0,
+   "t1": 83,
+   "line": "Backup's frozen. Help is eight months out."
+  },
+  {
+   "shot": "M1",
+   "a": 355,
+   "b": 423,
+   "t0": 0,
+   "t1": 68,
+   "line": "Commander Voss grabs rover keys."
+  },
+  {
+   "shot": "M2",
+   "a": 423,
+   "b": 489,
+   "t0": 0,
+   "t1": 66,
+   "line": "Eight klicks to Backup Hab. Dr."
+  },
+  {
+   "shot": "M3",
+   "a": 489,
+   "b": 545,
+   "t0": 0,
+   "t1": 56,
+   "line": "Chen seals the greenhouse."
+  },
+  {
+   "shot": "M4",
+   "a": 545,
+   "b": 589,
+   "t0": 0,
+   "t1": 44,
+   "line": "Algae makes oxygen."
+  },
+  {
+   "shot": "M5",
+   "a": 589,
+   "b": 614,
+   "t0": 0,
+   "t1": 25,
+   "line": "Engineer Kovic"
+  },
+  {
+   "shot": "M6",
+   "a": 614,
+   "b": 710,
+   "t0": 0,
+   "t1": 96,
+   "line": "checks his leaking suit. Surface cache is two klicks out."
+  },
+  {
+   "shot": "M7",
+   "a": 710,
+   "b": 786,
+   "t0": 0,
+   "t1": 76,
+   "line": "Wait. The comms dish— boost the signal,"
+  },
+  {
+   "shot": "M8",
+   "a": 786,
+   "b": 824,
+   "t0": 0,
+   "t1": 38,
+   "line": "Earth hears us today."
+  },
+  {
+   "shot": "M9",
+   "a": 824,
+   "b": 901,
+   "t0": 0,
+   "t1": 77,
+   "line": "Resupply launches in six weeks. Here's"
+  },
+  {
+   "shot": "P1",
+   "a": 901,
+   "b": 953,
+   "t0": 0,
+   "t1": 52,
+   "line": "the catch. Power for ONE."
+  },
+  {
+   "shot": "P2",
+   "a": 953,
+   "b": 1017,
+   "t0": 0,
+   "t1": 64,
+   "line": "Rover motors. Greenhouse seals."
+  },
+  {
+   "shot": "P3",
+   "a": 1017,
+   "b": 1075,
+   "t0": 0,
+   "t1": 58,
+   "line": "Suit heaters. Comms array."
+  },
+  {
+   "shot": "P4",
+   "a": 1075,
+   "b": 1136,
+   "t0": 0,
+   "t1": 61,
+   "line": "Pick wrong, everyone dies in the dark."
+  },
+  {
+   "shot": "M1",
+   "a": 1136,
+   "b": 1247,
+   "t0": 111,
+   "t1": 222,
+   "line": "A: Rover dash— eight klicks, red dust, Earth rising.",
+   "card": "A"
+  },
+  {
+   "shot": "M3",
+   "a": 1247,
+   "b": 1363,
+   "t0": 60,
+   "t1": 176,
+   "line": "B: Greenhouse gamble— seal the dome, watch algae glow.",
+   "card": "B"
+  },
+  {
+   "shot": "M6",
+   "a": 1363,
+   "b": 1488,
+   "t0": 84,
+   "t1": 209,
+   "line": "C: Surface walk— two klicks, suit hissing, stars forever.",
+   "card": "C"
+  },
+  {
+   "shot": "M7",
+   "a": 1488,
+   "b": 1612,
+   "t0": 78,
+   "t1": 202,
+   "line": "D: Signal Earth— dish aimed home, blue dot, weeks of hope.",
+   "card": "D"
+  },
+  {
+   "shot": "H1",
+   "a": 1612,
+   "b": 1727,
+   "t0": 115,
+   "t1": 0,
+   "line": "Vote in comments. Next part opens with the oxygen winner."
+  }
+ ],
+ "shots": [
+  {
+   "id": "H1",
+   "size": "wide",
+   "key": 30,
+   "len": 115,
+   "first": 0,
+   "line": "What if your Mars habitat just",
+   "note": "Voss at the O2 gauge, alarm red; the loop frame"
+  },
+  {
+   "id": "H2",
+   "size": "close-up",
+   "key": 40,
+   "len": 101,
+   "first": 45,
+   "line": "lost oxygen? You only have two hours to survive.",
+   "note": "gauge reads 02:00, Voss reflected"
+  },
+  {
+   "id": "H3",
+   "size": "wide",
+   "key": 20,
+   "len": 34,
+   "first": 146,
+   "line": "Ares Prime.",
+   "note": "twelve crew, Chen at the greenhouse door, Kovic at the suit bay"
+  },
+  {
+   "id": "H3b",
+   "size": "medium",
+   "key": 30,
+   "len": 59,
+   "first": 180,
+   "line": "Twelve people on board. CO2",
+   "note": "push past Voss to the scrubber readout"
+  },
+  {
+   "id": "H4",
+   "size": "insert",
+   "key": 25,
+   "len": 33,
+   "first": 239,
+   "line": "scrubber failed.",
+   "note": "dead CO2 scrubber, frost on the housing"
+  },
+  {
+   "id": "H5",
+   "size": "insert",
+   "key": 30,
+   "len": 83,
+   "first": 272,
+   "line": "Backup's frozen. Help is eight months out.",
+   "note": "frozen backup cryo panel"
+  },
+  {
+   "id": "M1",
+   "size": "wide",
+   "key": 30,
+   "len": 222,
+   "first": 355,
+   "line": "Commander Voss grabs rover keys.",
+   "note": "Voss catches the rover keys; rover behind"
+  },
+  {
+   "id": "M2",
+   "size": "wide",
+   "key": 30,
+   "len": 66,
+   "first": 423,
+   "line": "Eight klicks to Backup Hab. Dr.",
+   "note": "Backup Hab dome eight klicks out"
+  },
+  {
+   "id": "M3",
+   "size": "medium",
+   "key": 30,
+   "len": 176,
+   "first": 489,
+   "line": "Chen seals the greenhouse.",
+   "note": "Chen clamps the dome ring"
+  },
+  {
+   "id": "M4",
+   "size": "macro",
+   "key": 30,
+   "len": 44,
+   "first": 545,
+   "line": "Algae makes oxygen.",
+   "note": "algae tanks glow, bubbles rise"
+  },
+  {
+   "id": "M5",
+   "size": "medium",
+   "key": 20,
+   "len": 25,
+   "first": 589,
+   "line": "Engineer Kovic",
+   "note": "Kovic mid-stride, suit venting"
+  },
+  {
+   "id": "M6",
+   "size": "close-up",
+   "key": 30,
+   "len": 209,
+   "first": 614,
+   "line": "checks his leaking suit. Surface cache is two klicks out.",
+   "note": "frost crawling across the visor"
+  },
+  {
+   "id": "M7",
+   "size": "low angle",
+   "key": 30,
+   "len": 202,
+   "first": 710,
+   "line": "Wait. The comms dish— boost the signal,",
+   "note": "dish array slews toward Earth"
+  },
+  {
+   "id": "M8",
+   "size": "insert",
+   "key": 25,
+   "len": 38,
+   "first": 786,
+   "line": "Earth hears us today.",
+   "note": "Earth as a blue dot"
+  },
+  {
+   "id": "M9",
+   "size": "insert",
+   "key": 30,
+   "len": 77,
+   "first": 824,
+   "line": "Resupply launches in six weeks. Here's",
+   "note": "comms screen: resupply launch in six weeks"
+  },
+  {
+   "id": "P1",
+   "size": "wide",
+   "key": 30,
+   "len": 52,
+   "first": 901,
+   "line": "the catch. Power for ONE.",
+   "note": "one power cell, five loads"
+  },
+  {
+   "id": "P2",
+   "size": "medium",
+   "key": 30,
+   "len": 64,
+   "first": 953,
+   "line": "Rover motors. Greenhouse seals.",
+   "note": "loads light in sequence"
+  },
+  {
+   "id": "P3",
+   "size": "medium",
+   "key": 30,
+   "len": 58,
+   "first": 1017,
+   "line": "Suit heaters. Comms array.",
+   "note": "four branches go dark"
+  },
+  {
+   "id": "P4",
+   "size": "close-up",
+   "key": 30,
+   "len": 61,
+   "first": 1075,
+   "line": "Pick wrong, everyone dies in the dark.",
+   "note": "Voss: everyone dies in the dark"
+  }
+ ],
+ "fx": [
+  {
+   "kind": "flash",
+   "color": "#FF3333",
+   "f": 57
+  },
+  {
+   "kind": "shake",
+   "amp": 6,
+   "f": 394
+  },
+  {
+   "kind": "flash",
+   "color": "#00FF88",
+   "f": 547
+  },
+  {
+   "kind": "shake",
+   "amp": 4,
+   "f": 639
+  },
+  {
+   "kind": "flash",
+   "color": "#4488FF",
+   "f": 735
+  },
+  {
+   "kind": "shake",
+   "amp": 10,
+   "f": 937
+  },
+  {
+   "kind": "flash",
+   "color": "#FFFFFF",
+   "f": 1614
+  }
+ ],
+ "audio": {
+  "voiceVol": 0.8,
+  "sfxVol": 0.1542,
+  "musicVol": 0.1197,
+  "voice": "mars-colony-survival/voice.wav",
+  "sfx": "mars-colony-survival/sfx.wav",
+  "music": "mars-colony-survival/music.wav"
+ },
+ "captions": [
+  {
+   "a": 0,
+   "b": 10,
+   "text": "What if"
+  },
+  {
+   "a": 10,
+   "b": 25,
+   "text": "your Mars"
+  },
+  {
+   "a": 25,
+   "b": 47,
+   "text": "habitat just"
+  },
+  {
+   "a": 47,
+   "b": 84,
+   "text": "lost oxygen?"
+  },
+  {
+   "a": 88,
+   "b": 101,
+   "text": "You only"
+  },
+  {
+   "a": 101,
+   "b": 112,
+   "text": "have two"
+  },
+  {
+   "a": 112,
+   "b": 124,
+   "text": "hours to"
+  },
+  {
+   "a": 124,
+   "b": 148,
+   "text": "survive"
+  },
+  {
+   "a": 148,
+   "b": 182,
+   "text": "Ares Prime"
+  },
+  {
+   "a": 182,
+   "b": 203,
+   "text": "Twelve people"
+  },
+  {
+   "a": 203,
+   "b": 225,
+   "text": "on board"
+  },
+  {
+   "a": 225,
+   "b": 254,
+   "text": "CO2 scrubber"
+  },
+  {
+   "a": 254,
+   "b": 274,
+   "text": "failed"
+  },
+  {
+   "a": 274,
+   "b": 309,
+   "text": "Backup's frozen"
+  },
+  {
+   "a": 309,
+   "b": 325,
+   "text": "Help is"
+  },
+  {
+   "a": 325,
+   "b": 342,
+   "text": "eight months"
+  },
+  {
+   "a": 342,
+   "b": 357,
+   "text": "out"
+  },
+  {
+   "a": 357,
+   "b": 382,
+   "text": "Commander Voss"
+  },
+  {
+   "a": 382,
+   "b": 405,
+   "text": "grabs rover"
+  },
+  {
+   "a": 405,
+   "b": 425,
+   "text": "keys"
+  },
+  {
+   "a": 425,
+   "b": 444,
+   "text": "Eight klicks"
+  },
+  {
+   "a": 444,
+   "b": 461,
+   "text": "to Backup"
+  },
+  {
+   "a": 461,
+   "b": 478,
+   "text": "Hab"
+  },
+  {
+   "a": 478,
+   "b": 491,
+   "text": "Dr"
+  },
+  {
+   "a": 491,
+   "b": 515,
+   "text": "Chen seals"
+  },
+  {
+   "a": 515,
+   "b": 547,
+   "text": "the greenhouse"
+  },
+  {
+   "a": 547,
+   "b": 566,
+   "text": "Algae makes"
+  },
+  {
+   "a": 566,
+   "b": 591,
+   "text": "oxygen"
+  },
+  {
+   "a": 591,
+   "b": 616,
+   "text": "Engineer Kovic"
+  },
+  {
+   "a": 616,
+   "b": 629,
+   "text": "checks his"
+  },
+  {
+   "a": 629,
+   "b": 656,
+   "text": "leaking suit"
+  },
+  {
+   "a": 656,
+   "b": 677,
+   "text": "Surface cache"
+  },
+  {
+   "a": 677,
+   "b": 688,
+   "text": "is two"
+  },
+  {
+   "a": 688,
+   "b": 712,
+   "text": "klicks out"
+  },
+  {
+   "a": 712,
+   "b": 730,
+   "text": "Wait"
+  },
+  {
+   "a": 730,
+   "b": 746,
+   "text": "The comms"
+  },
+  {
+   "a": 746,
+   "b": 760,
+   "text": "dish"
+  },
+  {
+   "a": 760,
+   "b": 772,
+   "text": "boost the"
+  },
+  {
+   "a": 772,
+   "b": 788,
+   "text": "signal"
+  },
+  {
+   "a": 788,
+   "b": 804,
+   "text": "Earth hears"
+  },
+  {
+   "a": 804,
+   "b": 826,
+   "text": "us today"
+  },
+  {
+   "a": 826,
+   "b": 857,
+   "text": "Resupply launches"
+  },
+  {
+   "a": 857,
+   "b": 873,
+   "text": "in six"
+  },
+  {
+   "a": 873,
+   "b": 891,
+   "text": "weeks"
+  },
+  {
+   "a": 891,
+   "b": 903,
+   "text": "Here's the"
+  },
+  {
+   "a": 903,
+   "b": 920,
+   "text": "catch"
+  },
+  {
+   "a": 920,
+   "b": 937,
+   "text": "Power for"
+  },
+  {
+   "a": 937,
+   "b": 955,
+   "text": "ONE"
+  },
+  {
+   "a": 955,
+   "b": 985,
+   "text": "Rover motors"
+  },
+  {
+   "a": 985,
+   "b": 1019,
+   "text": "Greenhouse seals"
+  },
+  {
+   "a": 1019,
+   "b": 1047,
+   "text": "Suit heaters"
+  },
+  {
+   "a": 1047,
+   "b": 1077,
+   "text": "Comms array"
+  },
+  {
+   "a": 1077,
+   "b": 1096,
+   "text": "Pick wrong"
+  },
+  {
+   "a": 1096,
+   "b": 1116,
+   "text": "everyone dies"
+  },
+  {
+   "a": 1116,
+   "b": 1121,
+   "text": "in the"
+  },
+  {
+   "a": 1121,
+   "b": 1138,
+   "text": "dark"
+  },
+  {
+   "a": 1138,
+   "b": 1153,
+   "text": "A"
+  },
+  {
+   "a": 1153,
+   "b": 1179,
+   "text": "Rover dash"
+  },
+  {
+   "a": 1179,
+   "b": 1201,
+   "text": "eight klicks"
+  },
+  {
+   "a": 1201,
+   "b": 1221,
+   "text": "red dust"
+  },
+  {
+   "a": 1221,
+   "b": 1249,
+   "text": "Earth rising"
+  },
+  {
+   "a": 1249,
+   "b": 1263,
+   "text": "B"
+  },
+  {
+   "a": 1263,
+   "b": 1298,
+   "text": "Greenhouse gamble"
+  },
+  {
+   "a": 1298,
+   "b": 1310,
+   "text": "seal the"
+  },
+  {
+   "a": 1310,
+   "b": 1327,
+   "text": "dome"
+  },
+  {
+   "a": 1327,
+   "b": 1349,
+   "text": "watch algae"
+  },
+  {
+   "a": 1349,
+   "b": 1365,
+   "text": "glow"
+  },
+  {
+   "a": 1365,
+   "b": 1378,
+   "text": "C"
+  },
+  {
+   "a": 1378,
+   "b": 1405,
+   "text": "Surface walk"
+  },
+  {
+   "a": 1405,
+   "b": 1429,
+   "text": "two klicks"
+  },
+  {
+   "a": 1429,
+   "b": 1453,
+   "text": "suit hissing"
+  },
+  {
+   "a": 1453,
+   "b": 1490,
+   "text": "stars forever"
+  },
+  {
+   "a": 1490,
+   "b": 1504,
+   "text": "D"
+  },
+  {
+   "a": 1504,
+   "b": 1530,
+   "text": "Signal Earth"
+  },
+  {
+   "a": 1530,
+   "b": 1545,
+   "text": "dish aimed"
+  },
+  {
+   "a": 1545,
+   "b": 1560,
+   "text": "home"
+  },
+  {
+   "a": 1560,
+   "b": 1582,
+   "text": "blue dot"
+  },
+  {
+   "a": 1582,
+   "b": 1596,
+   "text": "weeks of"
+  },
+  {
+   "a": 1596,
+   "b": 1614,
+   "text": "hope"
+  },
+  {
+   "a": 1614,
+   "b": 1626,
+   "text": "Vote in"
+  },
+  {
+   "a": 1626,
+   "b": 1651,
+   "text": "comments"
+  },
+  {
+   "a": 1651,
+   "b": 1667,
+   "text": "Next part"
+  },
+  {
+   "a": 1667,
+   "b": 1681,
+   "text": "opens with"
+  },
+  {
+   "a": 1681,
+   "b": 1704,
+   "text": "the oxygen"
+  },
+  {
+   "a": 1704,
+   "b": 1721,
+   "text": "winner"
+  }
+ ],
+ "captionStyle": {
+  "size": 104,
+  "y": 0.7,
+  "accent": [
+   "oxygen",
+   "two hours",
+   "rover",
+   "algae",
+   "EVA",
+   "resupply"
+  ]
+ }
+}

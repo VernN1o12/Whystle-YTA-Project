@@ -1,0 +1,32 @@
+{
+  "name": "cartoon-shorts-studio",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Cartoon Shorts studio: automated YouTube Shorts pipeline with 2D characters in 3D worlds.",
+  "scripts": {
+    "studio": "remotion studio src/index.ts --port 3430",
+    "typecheck": "tsc --noEmit",
+    "render": "remotion render src/index.ts",
+    "check": "python ../scripts/check_episode.py"
+  },
+  "dependencies": {
+    "@react-three/fiber": "^9.0.0",
+    "@react-three/postprocessing": "^3.2.0",
+    "@remotion/bundler": "4.0.530",
+    "@remotion/cli": "4.0.530",
+    "@remotion/fonts": "4.0.530",
+    "@remotion/google-fonts": "4.0.530",
+    "@remotion/renderer": "4.0.530",
+    "@remotion/three": "4.0.530",
+    "postprocessing": "^6.35.4",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "remotion": "4.0.530",
+    "three": "^0.169.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.0.0",
+    "@types/three": "^0.162.0",
+    "typescript": "5.8.2"
+  }
+}

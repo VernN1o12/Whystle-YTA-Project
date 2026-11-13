@@ -1,0 +1,49 @@
+Bundling 6%
+Bundling 21%
+Bundling 58%
+Bundling 65%
+Bundling 71%
+Bundling 76%
+Bundling 81%
+Bundling 87%
+Bundling 92%
+Bundling 98%
+Bundling 100%
+Copying public dir 13.5 MB
+Getting composition
+[90mComposition          colorSounds[39m
+[90mCodec                h264[39m
+[90mOutput               out/color-sounds/color-sounds-raw.mp4[39m
+[90mConcurrency          1x[39m
+Rendered 0/1524
+Rendered 1/1524, time remaining: 3h 50m 45s
+Rendered 2/1524, time remaining: 5h 42m 29s
+Rendered 3/1524, time remaining: 5h 17m 56s
+Rendered 4/1524, time remaining: 5h 5m 33s
+Rendered 5/1524, time remaining: 4h 55m 30s
+Rendered 6/1524, time remaining: 4h 49m 29s
+Rendered 7/1524, time remaining: 4h 46m 19s
+Rendered 8/1524, time remaining: 4h 43m 20s
+Rendered 9/1524, time remaining: 4h 40m 34s
+Rendered 10/1524, time remaining: 4h 38m 58s
+Rendered 11/1524, time remaining: 4h 37m 3s
+Rendered 12/1524, time remaining: 4h 35m 40s
+Rendered 13/1524, time remaining: 4h 34m 20s
+Rendered 14/1524, time remaining: 4h 32m 53s
+Rendered 15/1524, time remaining: 4h 31m 57s
+Rendered 16/1524, time remaining: 4h 31m 16s
+Rendered 17/1524, time remaining: 4h 30m 33s
+Rendered 18/1524, time remaining: 4h 29m 50s
+Rendered 19/1524, time remaining: 4h 29m 20s
+Rendered 20/1524, time remaining: 4h 28m 42s
+Rendered 21/1524, time remaining: 4h 28m 11s
+Rendered 22/1524, time remaining: 4h 36m 41s
+Rendered 23/1524, time remaining: 4h 38m 47s
+[33mThe browser crashed while rendering frame 23, retrying 1 more times. Learn more about this error under https://www.remotion.dev/docs/target-closed[39m
+Killed previous browser and making new one
+
+[31mError: Timed out after 360000ms while setting up the headless browser.[39m
+[31mThis could be because the you specified takes a long time to load (or network resources that it includes like fonts) or because the browser is not responding.[39m
+[31m    at Timeout.<anonymous> (C:\Users\Jelanelle Mayor\OneDrive\Documents\MACASINAG\YT-SHORTS\YouTube-Automated-Shorts\shorts-studio\node_modules\@remotion\renderer\dist\set-props-and-env.js:214:28)[39m
+[31m    at listOnTimeout (node:internal/timers:685:17)[39m
+[31m    at process.processTimers (node:internal/timers:618:7)[39m

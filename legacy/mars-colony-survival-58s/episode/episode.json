@@ -1,0 +1,507 @@
+{
+  "_note": "Survival Scenario Choice Short — Mars Colony. Data-driven episode for the painted 3D toon engine.",
+  "id": "MarsColonySurvival",
+  "slug": "mars-colony-survival",
+  "topic": "MARS COLONY: Life Support Failed — You Have 2 Hours",
+  "format": "shorts",
+  "fps": 30,
+  "lead": 2,
+  "tail": 0.5,
+  "short": {
+    "preset": "choice",
+    "pattern": "choice",
+    "route": "code",
+    "title": "MARS COLONY: Life Support Failed — You Have 2 Hours",
+    "search_phrase": "mars colony survival life support",
+    "wardrobe": "Mars flight suit: cream/rust Voss, teal Chen coveralls, orange Kovic EVA suit; helmets on the surface",
+    "hook": "your mars habitat just lost oxygen — two hours to live",
+    "loop": "loop back to the O2 gauge as it clicks to 01:59; A-D cards over live Mars shots"
+  },
+  "title": [
+    "MARS COLONY: Life Support Failed",
+    "You Have two hours to live 🚀🔴",
+    "Oxygen Lost on Mars"
+  ],
+  "captions": {
+    "on": true,
+    "maxWords": 2,
+    "accent": [
+      "oxygen",
+      "two hours",
+      "rover",
+      "algae",
+      "EVA",
+      "resupply"
+    ],
+    "size": 104,
+    "y": 0.7
+  },
+  "script": [
+    {
+      "beat": "1 HOOK: impossible stakes stated as fact, no setup",
+      "text": "What if your Mars habitat just lost oxygen? You only have two hours to survive."
+    },
+    {
+      "beat": "2 SETUP: the world, the numbers, the everyman",
+      "text": "Ares Prime. Twelve people on board. CO2 scrubber failed. Backup's frozen. Help is eight months out."
+    },
+    {
+      "beat": "3 ESCALATION: three paths, each harder, dialogue beats",
+      "text": "Commander Voss grabs rover keys. Eight klicks to Backup Hab. Dr. Chen seals the greenhouse. Algae makes oxygen. Engineer Kovic checks his leaking suit. Surface cache is two klicks out."
+    },
+    {
+      "beat": "4 MYSTERY BEAT: the question that changes everything",
+      "text": "Wait. The comms dish — boost the signal, Earth hears us today. Resupply launches in six weeks."
+    },
+    {
+      "beat": "5 THE CATCH: flips it on the viewer, the real constraint",
+      "text": "Here's the catch. Power for ONE. Rover motors. Greenhouse seals. Suit heaters. Comms array. Pick wrong, everyone dies in the dark."
+    },
+    {
+      "beat": "6 CHOICE CARD + LOOP: A-D options, vote in comments",
+      "text": "A: Rover dash — eight klicks, red dust, Earth rising. B: Greenhouse gamble — seal the dome, watch algae glow. C: Surface walk — two klicks, suit hissing, stars forever. D: Signal Earth — dish aimed home, blue dot, weeks of hope. Vote in comments. Next part opens with the oxygen winner."
+    }
+  ],
+  "science": [
+    {
+      "claim": "Mars habitats would rely on CO2 scrubbers for breathable air.",
+      "working": "Real NASA life support uses molecular sieves (zeolite) to capture CO2; failure scenarios are studied in analogs like HI-SEAS.",
+      "source": "NASA Life Support Systems Technical Documents; HI-SEAS mission reports",
+      "status": "verified"
+    },
+    {
+      "claim": "Algae bioreactors can generate oxygen in closed habitats.",
+      "working": "Spirulina and chlorella systems are tested for ISS and Mars transit; they produce O2 but require light, power, and time to scale.",
+      "source": "ESA MELiSSA project; NASA OMEGA project",
+      "status": "verified"
+    },
+    {
+      "claim": "Mars-Earth communication delay is 4-24 minutes depending on orbit.",
+      "working": "At opposition ~4 min, at conjunction ~24 min. No real-time conversation possible.",
+      "source": "NASA Deep Space Network specs",
+      "status": "verified"
+    },
+    {
+      "claim": "Resupply from Earth to Mars takes 6-9 months with current tech.",
+      "working": "Hohmann transfer windows every 26 months; fastest transit ~6 months with chemical propulsion.",
+      "source": "NASA Mars Design Reference Architecture 5.0",
+      "status": "verified"
+    }
+  ],
+  "cast": [
+    "voss",
+    "chen",
+    "kovic"
+  ],
+  "shots": [
+    {
+      "id": "H1",
+      "size": "wide",
+      "set": "habitat",
+      "key": 30,
+      "note": "Voss at the O2 gauge, alarm red; the loop frame"
+    },
+    {
+      "id": "H2",
+      "size": "close-up",
+      "set": "habitat",
+      "key": 40,
+      "note": "gauge reads 02:00, Voss reflected"
+    },
+    {
+      "id": "H3",
+      "size": "wide",
+      "set": "habitat",
+      "key": 20,
+      "note": "twelve crew, Chen at the greenhouse door, Kovic at the suit bay"
+    },
+    {
+      "id": "H3b",
+      "size": "medium",
+      "set": "habitat",
+      "key": 30,
+      "note": "push past Voss to the scrubber readout"
+    },
+    {
+      "id": "H4",
+      "size": "insert",
+      "set": "habitat",
+      "key": 25,
+      "note": "dead CO2 scrubber, frost on the housing"
+    },
+    {
+      "id": "H5",
+      "size": "insert",
+      "set": "habitat",
+      "key": 30,
+      "note": "frozen backup cryo panel"
+    },
+    {
+      "id": "M1",
+      "size": "wide",
+      "set": "mars_surface",
+      "key": 30,
+      "note": "Voss catches the rover keys; rover behind"
+    },
+    {
+      "id": "M2",
+      "size": "wide",
+      "set": "mars_surface",
+      "key": 30,
+      "note": "Backup Hab dome eight klicks out"
+    },
+    {
+      "id": "M3",
+      "size": "medium",
+      "set": "greenhouse",
+      "key": 30,
+      "note": "Chen clamps the dome ring"
+    },
+    {
+      "id": "M4",
+      "size": "macro",
+      "set": "greenhouse",
+      "key": 30,
+      "note": "algae tanks glow, bubbles rise"
+    },
+    {
+      "id": "M5",
+      "size": "medium",
+      "set": "mars_surface",
+      "key": 20,
+      "note": "Kovic mid-stride, suit venting"
+    },
+    {
+      "id": "M6",
+      "size": "close-up",
+      "set": "mars_surface",
+      "key": 30,
+      "note": "frost crawling across the visor"
+    },
+    {
+      "id": "M7",
+      "size": "low angle",
+      "set": "mars_surface",
+      "key": 30,
+      "note": "dish array slews toward Earth"
+    },
+    {
+      "id": "M8",
+      "size": "insert",
+      "set": "mars_surface",
+      "key": 25,
+      "note": "Earth as a blue dot"
+    },
+    {
+      "id": "M9",
+      "size": "insert",
+      "set": "habitat",
+      "key": 30,
+      "note": "comms screen: resupply launch in six weeks"
+    },
+    {
+      "id": "P1",
+      "size": "wide",
+      "set": "schematic",
+      "key": 30,
+      "note": "one power cell, five loads"
+    },
+    {
+      "id": "P2",
+      "size": "medium",
+      "set": "schematic",
+      "key": 30,
+      "note": "loads light in sequence"
+    },
+    {
+      "id": "P3",
+      "size": "medium",
+      "set": "schematic",
+      "key": 30,
+      "note": "four branches go dark"
+    },
+    {
+      "id": "P4",
+      "size": "close-up",
+      "set": "habitat",
+      "key": 30,
+      "note": "Voss: everyone dies in the dark"
+    }
+  ],
+  "edit": [
+    {
+      "shot": "H1",
+      "at": "f:0"
+    },
+    {
+      "shot": "H2",
+      "at": "lost"
+    },
+    {
+      "shot": "H3",
+      "at": "Ares"
+    },
+    {
+      "shot": "H3b",
+      "at": "Twelve"
+    },
+    {
+      "shot": "H4",
+      "at": "scrubber"
+    },
+    {
+      "shot": "H5",
+      "at": "Backup's"
+    },
+    {
+      "shot": "M1",
+      "at": "Commander"
+    },
+    {
+      "shot": "M2",
+      "at": "Eight"
+    },
+    {
+      "shot": "M3",
+      "at": "Chen"
+    },
+    {
+      "shot": "M4",
+      "at": "Algae"
+    },
+    {
+      "shot": "M5",
+      "at": "Engineer"
+    },
+    {
+      "shot": "M6",
+      "at": "checks"
+    },
+    {
+      "shot": "M7",
+      "at": "Wait"
+    },
+    {
+      "shot": "M8",
+      "at": "Earth"
+    },
+    {
+      "shot": "M9",
+      "at": "Resupply"
+    },
+    {
+      "shot": "P1",
+      "at": "catch"
+    },
+    {
+      "shot": "P2",
+      "at": "Rover"
+    },
+    {
+      "shot": "P3",
+      "at": "Suit"
+    },
+    {
+      "shot": "P4",
+      "at": "Pick"
+    },
+    {
+      "shot": "M1",
+      "at": "A",
+      "from": 111,
+      "card": "A"
+    },
+    {
+      "shot": "M3",
+      "at": "B",
+      "from": 60,
+      "card": "B"
+    },
+    {
+      "shot": "M6",
+      "at": "C",
+      "from": 84,
+      "card": "C"
+    },
+    {
+      "shot": "M7",
+      "at": "D",
+      "from": 78,
+      "card": "D"
+    },
+    {
+      "shot": "H1",
+      "at": "Vote",
+      "reverse": true,
+      "from": 115,
+      "to": 0
+    }
+  ],
+  "fx": [
+    {
+      "at": "oxygen",
+      "kind": "flash",
+      "color": "#FF3333"
+    },
+    {
+      "at": "rover",
+      "kind": "shake",
+      "amp": 6
+    },
+    {
+      "at": "algae",
+      "kind": "flash",
+      "color": "#00FF88"
+    },
+    {
+      "at": "suit",
+      "kind": "shake",
+      "amp": 4
+    },
+    {
+      "at": "comms",
+      "kind": "flash",
+      "color": "#4488FF"
+    },
+    {
+      "at": "ONE",
+      "kind": "shake",
+      "amp": 10
+    },
+    {
+      "at": "Vote",
+      "kind": "flash",
+      "color": "#FFFFFF"
+    }
+  ],
+  "sound": {
+    "clips": {
+      "alarm": [
+        "low urgent habitat alarm pulse, steady",
+        2.0
+      ],
+      "rover_engine": [
+        "electric rover motor whine, accelerating",
+        3.0
+      ],
+      "hatch_seal": [
+        "heavy pneumatic hatch sealing, hydraulic hiss",
+        1.5
+      ],
+      "algae_bubble": [
+        "soft organic bubbling, microscopic oxygen release",
+        2.0
+      ],
+      "suit_leak": [
+        "faint high-pressure gas hiss, cold",
+        1.5
+      ],
+      "dish_rotate": [
+        "massive servo motors turning, deep mechanical groan",
+        2.5
+      ],
+      "beam": [
+        "sci-fi data beam pulse, rising tone",
+        1.0
+      ],
+      "power_down": [
+        "three quick power-down thunks, finality",
+        1.0
+      ],
+      "flash": [
+        "bright camera flash pop",
+        0.5
+      ],
+      "music": [
+        "ambient Mars soundscape, low wind, distant rumble, slow evolving minor chords, isolated and vast",
+        30
+      ]
+    },
+    "events": [
+      [
+        "f:0",
+        "alarm",
+        0.6
+      ],
+      [
+        "rover",
+        "rover_engine",
+        0.7
+      ],
+      [
+        "greenhouse",
+        "hatch_seal",
+        0.8
+      ],
+      [
+        "algae",
+        "algae_bubble",
+        0.5
+      ],
+      [
+        "suit",
+        "suit_leak",
+        0.6
+      ],
+      [
+        "comms",
+        "dish_rotate",
+        0.7
+      ],
+      [
+        "ONE",
+        "power_down",
+        0.8
+      ],
+      [
+        "oxygen",
+        "flash",
+        0.5
+      ],
+      [
+        "Vote",
+        "beam",
+        0.6
+      ]
+    ],
+    "repeats": [
+      {
+        "at": "algae",
+        "clip": "algae_bubble",
+        "n": 8,
+        "every": 3,
+        "gain": [
+          0.1,
+          0.2
+        ],
+        "pitch": [
+          1.0,
+          1.3
+        ]
+      },
+      {
+        "at": "suit",
+        "clip": "flash",
+        "n": 4,
+        "every": 5,
+        "gain": [
+          0.15,
+          0.25
+        ],
+        "pitch": [
+          0.8,
+          1.0
+        ]
+      }
+    ],
+    "music": {
+      "clip": "music",
+      "until": "Vote+12",
+      "from": 0
+    },
+    "levels": {
+      "sfx_lu": -5.0,
+      "music_lu": -10.5
+    }
+  }
+}
