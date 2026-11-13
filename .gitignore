@@ -1,0 +1,40 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Node dependencies
+node_modules/
+**/node_modules/
+
+# Python cache
+__pycache__/
+**/__pycache__/
+*.py[cod]
+
+# Build and cache
+dist/
+**/dist/
+build/
+**/build/
+.cache/
+**/.cache/
+
+# Generated renders
+**/out/
+**/out-old/
+**/out-old2/
+
+# Temporary files
+*.log
+.DS_Store
+Thumbs.db
+
+# Repository scope: preserve only the skill and reusable functions
+/*
+!.gitignore
+!SKILL.md
+!scripts/
+!/scripts/*.py
+!/scripts/*.mjs
+/scripts/__pycache__/
